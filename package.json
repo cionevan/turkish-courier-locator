@@ -1,0 +1,59 @@
+{
+  "name": "multi-carrier-branch-scraper",
+  "version": "2.3.0",
+  "description": "Cross-platform multi-carrier branch scraper, change detection and REST API engine (Aras, PTT, Yurtiçi, MNG, Sürat)",
+  "main": "src/index.ts",
+  "scripts": {
+    "setup": "playwright install --with-deps chromium",
+    "scan": "tsx src/cli.ts",
+    "scan:fresh": "tsx src/cli.ts --fresh",
+    "scan:aras": "tsx src/cli.ts --carrier=aras",
+    "scan:ptt": "tsx src/cli.ts --carrier=ptt",
+    "scan:yurtici": "tsx src/cli.ts --carrier=yurtici",
+    "scan:mng": "tsx src/cli.ts --carrier=mng",
+    "scan:surat": "tsx src/cli.ts --carrier=surat",
+    "scan:all": "tsx src/cli.ts --carrier=all",
+    "server": "tsx src/server.ts",
+    "api": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "lint": "eslint src/ tests/",
+    "typecheck": "tsc --project tsconfig.test.json --strict --noUnusedLocals --noUnusedParameters",
+    "test": "tsx tests/comprehensive_audit.ts && tsx tests/app_dashboard.spec.ts",
+    "test:aras": "tsx tests/verify_ui.ts",
+    "build:css": "npx @tailwindcss/cli -i src/public/input.css -o src/public/app.css --minify",
+    "build": "npm run build:css && tsc && node -e \"const fs=require('fs'); fs.mkdirSync('dist/public', {recursive:true}); fs.copyFileSync('src/public/index.html','dist/public/index.html'); fs.copyFileSync('src/public/app.css','dist/public/app.css');\""
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-cron": "^4.6.0",
+    "playwright": "^1.40.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/cli": "^4.3.3",
+    "@types/node": "^20.10.0",
+    "@types/node-cron": "^3.0.11",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "autoprefixer": "^10.5.5",
+    "eslint": "^10.10.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}

@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  kargo-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kargo-api:latest
+    container_name: kargo-api
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      - PORT=3000
+      - HOST=0.0.0.0
+      - NODE_ENV=production
+      - CONCURRENCY=${CONCURRENCY:-5}
+      - ENABLE_UI=${ENABLE_UI:-true}
+      - ENABLE_ROBOTS_INDEX=${ENABLE_ROBOTS_INDEX:-false}
+      - ENABLE_CRON=${ENABLE_CRON:-true}
+      - CRON_SCHEDULE=${CRON_SCHEDULE:-0 5 * * *}
+      - API_KEY=${API_KEY:-}
+      - TZ=Europe/Istanbul
+    volumes:
+      - kargo_data:/app/output
+    networks:
+      - dokploy-network
+    labels:
+      # --- Dokploy & Traefik Reverse Proxy Configuration ---
+      - "traefik.enable=true"
+      # Replace kargo.yourdomain.com with your real domain or set DOMAIN in .env
+      - "traefik.http.routers.kargo.rule=Host(`${DOMAIN:-kargo.yourdomain.com}`)"
+      - "traefik.http.routers.kargo.entrypoints=websecure"
+      - "traefik.http.routers.kargo.tls=true"
+      - "traefik.http.routers.kargo.tls.certresolver=letsencrypt"
+      - "traefik.http.services.kargo.loadbalancer.server.port=3000"
+      - "traefik.http.services.kargo.loadbalancer.passHostHeader=true"
+
+volumes:
+  kargo_data:
+    driver: local
+
+networks:
+  dokploy-network:
+    external: true

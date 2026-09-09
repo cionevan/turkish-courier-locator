@@ -1,0 +1,152 @@
+[
+  {
+    "il": "İzmir",
+    "ilce": "Aliağa",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Balçova",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Bayındır",
+    "subeVar": false
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Bayraklı",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Bergama",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Beydağ",
+    "subeVar": false
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Bornova",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Buca",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Çeşme",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Çiğli",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Dikili",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Foça",
+    "subeVar": false
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Gaziemir",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Güzelbahçe",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Karabağlar",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Karaburun",
+    "subeVar": false
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Karşıyaka",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Kemalpaşa",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Kınık",
+    "subeVar": false
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Kiraz",
+    "subeVar": false
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Konak",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Menderes",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Menemen",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Narlıdere",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Ödemiş",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Seferihisar",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Selçuk",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Tire",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Torbalı",
+    "subeVar": true
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Urla",
+    "subeVar": true
+  }
+]

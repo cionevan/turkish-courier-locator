@@ -1,0 +1,5906 @@
+[
+  {
+    "il": "Adana",
+    "ilce": "Sarıçam",
+    "cityId": 1,
+    "townId": 2032
+  },
+  {
+    "il": "Adana",
+    "ilce": "Çukurova",
+    "cityId": 1,
+    "townId": 2033
+  },
+  {
+    "il": "Adana",
+    "ilce": "Seyhan",
+    "cityId": 1,
+    "townId": 1104
+  },
+  {
+    "il": "Adana",
+    "ilce": "Ceyhan",
+    "cityId": 1,
+    "townId": 1219
+  },
+  {
+    "il": "Adana",
+    "ilce": "Feke",
+    "cityId": 1,
+    "townId": 1329
+  },
+  {
+    "il": "Adana",
+    "ilce": "Karaisalı",
+    "cityId": 1,
+    "townId": 1437
+  },
+  {
+    "il": "Adana",
+    "ilce": "Karataş",
+    "cityId": 1,
+    "townId": 1443
+  },
+  {
+    "il": "Adana",
+    "ilce": "Kozan",
+    "cityId": 1,
+    "townId": 1486
+  },
+  {
+    "il": "Adana",
+    "ilce": "Pozantı",
+    "cityId": 1,
+    "townId": 1580
+  },
+  {
+    "il": "Adana",
+    "ilce": "Saimbeyli",
+    "cityId": 1,
+    "townId": 1588
+  },
+  {
+    "il": "Adana",
+    "ilce": "Tufanbeyli",
+    "cityId": 1,
+    "townId": 1687
+  },
+  {
+    "il": "Adana",
+    "ilce": "Yumurtalık",
+    "cityId": 1,
+    "townId": 1734
+  },
+  {
+    "il": "Adana",
+    "ilce": "Yüreğir",
+    "cityId": 1,
+    "townId": 1748
+  },
+  {
+    "il": "Adana",
+    "ilce": "Aladağ",
+    "cityId": 1,
+    "townId": 1757
+  },
+  {
+    "il": "Adana",
+    "ilce": "İmamoğlu",
+    "cityId": 1,
+    "townId": 1806
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Sincik",
+    "cityId": 2,
+    "townId": 1985
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Tut",
+    "cityId": 2,
+    "townId": 1989
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Merkez",
+    "cityId": 2,
+    "townId": 1105
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Besni",
+    "cityId": 2,
+    "townId": 1182
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Çelikhan",
+    "cityId": 2,
+    "townId": 1246
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Gerger",
+    "cityId": 2,
+    "townId": 1347
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Gölbaşı",
+    "cityId": 2,
+    "townId": 1354
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Kahta",
+    "cityId": 2,
+    "townId": 1425
+  },
+  {
+    "il": "Adıyaman",
+    "ilce": "Samsat",
+    "cityId": 2,
+    "townId": 1592
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Çobanlar",
+    "cityId": 3,
+    "townId": 1906
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Merkez",
+    "cityId": 3,
+    "townId": 1108
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "İhsaniye",
+    "cityId": 3,
+    "townId": 1404
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Sandıklı",
+    "cityId": 3,
+    "townId": 1594
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Sinanpaşa",
+    "cityId": 3,
+    "townId": 1626
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Sultandağı",
+    "cityId": 3,
+    "townId": 1639
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Şuhut",
+    "cityId": 3,
+    "townId": 1664
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "İscehisar",
+    "cityId": 3,
+    "townId": 1809
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Evciler",
+    "cityId": 3,
+    "townId": 1923
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Hocalar",
+    "cityId": 3,
+    "townId": 1944
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Kızılören",
+    "cityId": 3,
+    "townId": 1961
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Bolvadin",
+    "cityId": 3,
+    "townId": 1200
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Çay",
+    "cityId": 3,
+    "townId": 1239
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Dazkırı",
+    "cityId": 3,
+    "townId": 1267
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Dinar",
+    "cityId": 3,
+    "townId": 1281
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Emirdağ",
+    "cityId": 3,
+    "townId": 1306
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Başmakçı",
+    "cityId": 3,
+    "townId": 1771
+  },
+  {
+    "il": "Afyonkarahisar",
+    "ilce": "Bayat",
+    "cityId": 3,
+    "townId": 1773
+  },
+  {
+    "il": "Ağrı",
+    "ilce": "Merkez",
+    "cityId": 4,
+    "townId": 1111
+  },
+  {
+    "il": "Ağrı",
+    "ilce": "Diyadin",
+    "cityId": 4,
+    "townId": 1283
+  },
+  {
+    "il": "Ağrı",
+    "ilce": "Doğubayazıt",
+    "cityId": 4,
+    "townId": 1287
+  },
+  {
+    "il": "Ağrı",
+    "ilce": "Eleşkirt",
+    "cityId": 4,
+    "townId": 1301
+  },
+  {
+    "il": "Ağrı",
+    "ilce": "Hamur",
+    "cityId": 4,
+    "townId": 1379
+  },
+  {
+    "il": "Ağrı",
+    "ilce": "Patnos",
+    "cityId": 4,
+    "townId": 1568
+  },
+  {
+    "il": "Ağrı",
+    "ilce": "Taşlıçay",
+    "cityId": 4,
+    "townId": 1667
+  },
+  {
+    "il": "Ağrı",
+    "ilce": "Tutak",
+    "cityId": 4,
+    "townId": 1691
+  },
+  {
+    "il": "Aksaray",
+    "ilce": "Merkez",
+    "cityId": 68,
+    "townId": 1120
+  },
+  {
+    "il": "Aksaray",
+    "ilce": "Ortaköy",
+    "cityId": 68,
+    "townId": 1557
+  },
+  {
+    "il": "Aksaray",
+    "ilce": "Ağaçören",
+    "cityId": 68,
+    "townId": 1860
+  },
+  {
+    "il": "Aksaray",
+    "ilce": "Güzelyurt",
+    "cityId": 68,
+    "townId": 1861
+  },
+  {
+    "il": "Aksaray",
+    "ilce": "Sarıyahşi",
+    "cityId": 68,
+    "townId": 1866
+  },
+  {
+    "il": "Aksaray",
+    "ilce": "Eskil",
+    "cityId": 68,
+    "townId": 1921
+  },
+  {
+    "il": "Aksaray",
+    "ilce": "Gülağaç",
+    "cityId": 68,
+    "townId": 1932
+  },
+  {
+    "il": "Amasya",
+    "ilce": "Merkez",
+    "cityId": 5,
+    "townId": 1134
+  },
+  {
+    "il": "Amasya",
+    "ilce": "Göynücek",
+    "cityId": 5,
+    "townId": 1363
+  },
+  {
+    "il": "Amasya",
+    "ilce": "Gümüşhacıköy",
+    "cityId": 5,
+    "townId": 1368
+  },
+  {
+    "il": "Amasya",
+    "ilce": "Merzifon",
+    "cityId": 5,
+    "townId": 1524
+  },
+  {
+    "il": "Amasya",
+    "ilce": "Suluova",
+    "cityId": 5,
+    "townId": 1641
+  },
+  {
+    "il": "Amasya",
+    "ilce": "Taşova",
+    "cityId": 5,
+    "townId": 1668
+  },
+  {
+    "il": "Amasya",
+    "ilce": "Hamamözü",
+    "cityId": 5,
+    "townId": 1938
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Altındağ",
+    "cityId": 6,
+    "townId": 1130
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Ayaş",
+    "cityId": 6,
+    "townId": 1157
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Bala",
+    "cityId": 6,
+    "townId": 1167
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Beypazarı",
+    "cityId": 6,
+    "townId": 1187
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Çamlıdere",
+    "cityId": 6,
+    "townId": 1227
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Çankaya",
+    "cityId": 6,
+    "townId": 1231
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Çubuk",
+    "cityId": 6,
+    "townId": 1260
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Elmadağ",
+    "cityId": 6,
+    "townId": 1302
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Güdül",
+    "cityId": 6,
+    "townId": 1365
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Haymana",
+    "cityId": 6,
+    "townId": 1387
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Kalecik",
+    "cityId": 6,
+    "townId": 1427
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Kızılcahamam",
+    "cityId": 6,
+    "townId": 1473
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Nallıhan",
+    "cityId": 6,
+    "townId": 1539
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Polatlı",
+    "cityId": 6,
+    "townId": 1578
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Şereflikoçhisar",
+    "cityId": 6,
+    "townId": 1658
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Yenimahalle",
+    "cityId": 6,
+    "townId": 1723
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Gölbaşı",
+    "cityId": 6,
+    "townId": 1744
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Keçiören",
+    "cityId": 6,
+    "townId": 1745
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Mamak",
+    "cityId": 6,
+    "townId": 1746
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Sincan",
+    "cityId": 6,
+    "townId": 1747
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Kazan",
+    "cityId": 6,
+    "townId": 1815
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Akyurt",
+    "cityId": 6,
+    "townId": 1872
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Etimesgut",
+    "cityId": 6,
+    "townId": 1922
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Evren",
+    "cityId": 6,
+    "townId": 1924
+  },
+  {
+    "il": "Ankara",
+    "ilce": "Pursaklar",
+    "cityId": 6,
+    "townId": 2034
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Akseki",
+    "cityId": 7,
+    "townId": 1121
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Alanya",
+    "cityId": 7,
+    "townId": 1126
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Elmalı",
+    "cityId": 7,
+    "townId": 1303
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Finike",
+    "cityId": 7,
+    "townId": 1333
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Gazipaşa",
+    "cityId": 7,
+    "townId": 1337
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Gündoğmuş",
+    "cityId": 7,
+    "townId": 1370
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Kaş",
+    "cityId": 7,
+    "townId": 1451
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Korkuteli",
+    "cityId": 7,
+    "townId": 1483
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Kumluca",
+    "cityId": 7,
+    "townId": 1492
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Manavgat",
+    "cityId": 7,
+    "townId": 1512
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Serik",
+    "cityId": 7,
+    "townId": 1616
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Demre",
+    "cityId": 7,
+    "townId": 1811
+  },
+  {
+    "il": "Antalya",
+    "ilce": "İbradı",
+    "cityId": 7,
+    "townId": 1946
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Kemer",
+    "cityId": 7,
+    "townId": 1959
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Aksu",
+    "cityId": 7,
+    "townId": 2035
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Döşemealtı",
+    "cityId": 7,
+    "townId": 2036
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Kepez",
+    "cityId": 7,
+    "townId": 2037
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Konyaaltı",
+    "cityId": 7,
+    "townId": 2038
+  },
+  {
+    "il": "Antalya",
+    "ilce": "Muratpaşa",
+    "cityId": 7,
+    "townId": 2039
+  },
+  {
+    "il": "Ardahan",
+    "ilce": "Merkez",
+    "cityId": 75,
+    "townId": 1144
+  },
+  {
+    "il": "Ardahan",
+    "ilce": "Çıldır",
+    "cityId": 75,
+    "townId": 1252
+  },
+  {
+    "il": "Ardahan",
+    "ilce": "Göle",
+    "cityId": 75,
+    "townId": 1356
+  },
+  {
+    "il": "Ardahan",
+    "ilce": "Hanak",
+    "cityId": 75,
+    "townId": 1380
+  },
+  {
+    "il": "Ardahan",
+    "ilce": "Posof",
+    "cityId": 75,
+    "townId": 1579
+  },
+  {
+    "il": "Ardahan",
+    "ilce": "Damal",
+    "cityId": 75,
+    "townId": 2008
+  },
+  {
+    "il": "Artvin",
+    "ilce": "Ardanuç",
+    "cityId": 8,
+    "townId": 1145
+  },
+  {
+    "il": "Artvin",
+    "ilce": "Arhavi",
+    "cityId": 8,
+    "townId": 1147
+  },
+  {
+    "il": "Artvin",
+    "ilce": "Merkez",
+    "cityId": 8,
+    "townId": 1152
+  },
+  {
+    "il": "Artvin",
+    "ilce": "Borçka",
+    "cityId": 8,
+    "townId": 1202
+  },
+  {
+    "il": "Artvin",
+    "ilce": "Hopa",
+    "cityId": 8,
+    "townId": 1395
+  },
+  {
+    "il": "Artvin",
+    "ilce": "Şavşat",
+    "cityId": 8,
+    "townId": 1653
+  },
+  {
+    "il": "Artvin",
+    "ilce": "Yusufeli",
+    "cityId": 8,
+    "townId": 1736
+  },
+  {
+    "il": "Artvin",
+    "ilce": "Murgul",
+    "cityId": 8,
+    "townId": 1828
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Bozdoğan",
+    "cityId": 9,
+    "townId": 1206
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Çine",
+    "cityId": 9,
+    "townId": 1256
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Germencik",
+    "cityId": 9,
+    "townId": 1348
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Karacasu",
+    "cityId": 9,
+    "townId": 1435
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Koçarlı",
+    "cityId": 9,
+    "townId": 1479
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Kuşadası",
+    "cityId": 9,
+    "townId": 1497
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Buharkent",
+    "cityId": 9,
+    "townId": 1781
+  },
+  {
+    "il": "Aydın",
+    "ilce": "İncirliova",
+    "cityId": 9,
+    "townId": 1807
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Karpuzlu",
+    "cityId": 9,
+    "townId": 1957
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Köşk",
+    "cityId": 9,
+    "townId": 1968
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Didim",
+    "cityId": 9,
+    "townId": 2000
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Efeler",
+    "cityId": 9,
+    "townId": 2076
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Yenipazar",
+    "cityId": 9,
+    "townId": 1724
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Merkez",
+    "cityId": 9,
+    "townId": 1159
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Kuyucak",
+    "cityId": 9,
+    "townId": 1498
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Nazilli",
+    "cityId": 9,
+    "townId": 1542
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Söke",
+    "cityId": 9,
+    "townId": 1637
+  },
+  {
+    "il": "Aydın",
+    "ilce": "Sultanhisar",
+    "cityId": 9,
+    "townId": 1640
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Susurluk",
+    "cityId": 10,
+    "townId": 1644
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Marmara",
+    "cityId": 10,
+    "townId": 1824
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Gömeç",
+    "cityId": 10,
+    "townId": 1928
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Altıeylül",
+    "cityId": 10,
+    "townId": 2077
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Karesi",
+    "cityId": 10,
+    "townId": 2078
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Ayvalık",
+    "cityId": 10,
+    "townId": 1161
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Merkez",
+    "cityId": 10,
+    "townId": 1168
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Balya",
+    "cityId": 10,
+    "townId": 1169
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Bandırma",
+    "cityId": 10,
+    "townId": 1171
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Bigadiç",
+    "cityId": 10,
+    "townId": 1191
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Burhaniye",
+    "cityId": 10,
+    "townId": 1216
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Dursunbey",
+    "cityId": 10,
+    "townId": 1291
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Edremit",
+    "cityId": 10,
+    "townId": 1294
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Erdek",
+    "cityId": 10,
+    "townId": 1310
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Gönen",
+    "cityId": 10,
+    "townId": 1360
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Havran",
+    "cityId": 10,
+    "townId": 1384
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "İvrindi",
+    "cityId": 10,
+    "townId": 1418
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Kepsut",
+    "cityId": 10,
+    "townId": 1462
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Manyas",
+    "cityId": 10,
+    "townId": 1514
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Savaştepe",
+    "cityId": 10,
+    "townId": 1608
+  },
+  {
+    "il": "Balıkesir",
+    "ilce": "Sındırgı",
+    "cityId": 10,
+    "townId": 1619
+  },
+  {
+    "il": "Bartın",
+    "ilce": "Merkez",
+    "cityId": 74,
+    "townId": 1172
+  },
+  {
+    "il": "Bartın",
+    "ilce": "Kurucaşile",
+    "cityId": 74,
+    "townId": 1496
+  },
+  {
+    "il": "Bartın",
+    "ilce": "Ulus",
+    "cityId": 74,
+    "townId": 1701
+  },
+  {
+    "il": "Bartın",
+    "ilce": "Amasra",
+    "cityId": 74,
+    "townId": 1761
+  },
+  {
+    "il": "Batman",
+    "ilce": "Beşiri",
+    "cityId": 72,
+    "townId": 1184
+  },
+  {
+    "il": "Batman",
+    "ilce": "Gercüş",
+    "cityId": 72,
+    "townId": 1345
+  },
+  {
+    "il": "Batman",
+    "ilce": "Hasankeyf",
+    "cityId": 72,
+    "townId": 1941
+  },
+  {
+    "il": "Batman",
+    "ilce": "Merkez",
+    "cityId": 72,
+    "townId": 1174
+  },
+  {
+    "il": "Batman",
+    "ilce": "Kozluk",
+    "cityId": 72,
+    "townId": 1487
+  },
+  {
+    "il": "Batman",
+    "ilce": "Merkez",
+    "cityId": 72,
+    "townId": 1552
+  },
+  {
+    "il": "Batman",
+    "ilce": "Sason",
+    "cityId": 72,
+    "townId": 1607
+  },
+  {
+    "il": "Bayburt",
+    "ilce": "Merkez",
+    "cityId": 69,
+    "townId": 1176
+  },
+  {
+    "il": "Bayburt",
+    "ilce": "Aydıntepe",
+    "cityId": 69,
+    "townId": 1767
+  },
+  {
+    "il": "Bayburt",
+    "ilce": "Demirözü",
+    "cityId": 69,
+    "townId": 1788
+  },
+  {
+    "il": "Bilecik",
+    "ilce": "Yenipazar",
+    "cityId": 11,
+    "townId": 1857
+  },
+  {
+    "il": "Bilecik",
+    "ilce": "İnhisar",
+    "cityId": 11,
+    "townId": 1948
+  },
+  {
+    "il": "Bilecik",
+    "ilce": "Merkez",
+    "cityId": 11,
+    "townId": 1192
+  },
+  {
+    "il": "Bilecik",
+    "ilce": "Bozüyük",
+    "cityId": 11,
+    "townId": 1210
+  },
+  {
+    "il": "Bilecik",
+    "ilce": "Gölpazarı",
+    "cityId": 11,
+    "townId": 1359
+  },
+  {
+    "il": "Bilecik",
+    "ilce": "Osmaneli",
+    "cityId": 11,
+    "townId": 1559
+  },
+  {
+    "il": "Bilecik",
+    "ilce": "Pazaryeri",
+    "cityId": 11,
+    "townId": 1571
+  },
+  {
+    "il": "Bilecik",
+    "ilce": "Söğüt",
+    "cityId": 11,
+    "townId": 1636
+  },
+  {
+    "il": "Bingöl",
+    "ilce": "Adaklı",
+    "cityId": 12,
+    "townId": 1750
+  },
+  {
+    "il": "Bingöl",
+    "ilce": "Yayladere",
+    "cityId": 12,
+    "townId": 1855
+  },
+  {
+    "il": "Bingöl",
+    "ilce": "Yedisu",
+    "cityId": 12,
+    "townId": 1996
+  },
+  {
+    "il": "Bingöl",
+    "ilce": "Merkez",
+    "cityId": 12,
+    "townId": 1193
+  },
+  {
+    "il": "Bingöl",
+    "ilce": "Genç",
+    "cityId": 12,
+    "townId": 1344
+  },
+  {
+    "il": "Bingöl",
+    "ilce": "Karlıova",
+    "cityId": 12,
+    "townId": 1446
+  },
+  {
+    "il": "Bingöl",
+    "ilce": "Kiğı",
+    "cityId": 12,
+    "townId": 1475
+  },
+  {
+    "il": "Bingöl",
+    "ilce": "Solhan",
+    "cityId": 12,
+    "townId": 1633
+  },
+  {
+    "il": "Bitlis",
+    "ilce": "Tatvan",
+    "cityId": 13,
+    "townId": 1669
+  },
+  {
+    "il": "Bitlis",
+    "ilce": "Güroymak",
+    "cityId": 13,
+    "townId": 1798
+  },
+  {
+    "il": "Bitlis",
+    "ilce": "Adilcevaz",
+    "cityId": 13,
+    "townId": 1106
+  },
+  {
+    "il": "Bitlis",
+    "ilce": "Ahlat",
+    "cityId": 13,
+    "townId": 1112
+  },
+  {
+    "il": "Bitlis",
+    "ilce": "Merkez",
+    "cityId": 13,
+    "townId": 1196
+  },
+  {
+    "il": "Bitlis",
+    "ilce": "Hizan",
+    "cityId": 13,
+    "townId": 1394
+  },
+  {
+    "il": "Bitlis",
+    "ilce": "Mutki",
+    "cityId": 13,
+    "townId": 1537
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Yeniçağa",
+    "cityId": 14,
+    "townId": 1997
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Dörtdivan",
+    "cityId": 14,
+    "townId": 1916
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Merkez",
+    "cityId": 14,
+    "townId": 1199
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Kıbrıscık",
+    "cityId": 14,
+    "townId": 1466
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Mengen",
+    "cityId": 14,
+    "townId": 1522
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Mudurnu",
+    "cityId": 14,
+    "townId": 1531
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Seben",
+    "cityId": 14,
+    "townId": 1610
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Gerede",
+    "cityId": 14,
+    "townId": 1346
+  },
+  {
+    "il": "Bolu",
+    "ilce": "Göynük",
+    "cityId": 14,
+    "townId": 1364
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Çeltikçi",
+    "cityId": 15,
+    "townId": 1903
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Ağlasun",
+    "cityId": 15,
+    "townId": 1109
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Bucak",
+    "cityId": 15,
+    "townId": 1211
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Merkez",
+    "cityId": 15,
+    "townId": 1215
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Gölhisar",
+    "cityId": 15,
+    "townId": 1357
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Tefenni",
+    "cityId": 15,
+    "townId": 1672
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Yeşilova",
+    "cityId": 15,
+    "townId": 1728
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Karamanlı",
+    "cityId": 15,
+    "townId": 1813
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Kemer",
+    "cityId": 15,
+    "townId": 1816
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Altınyayla",
+    "cityId": 15,
+    "townId": 1874
+  },
+  {
+    "il": "Burdur",
+    "ilce": "Çavdır",
+    "cityId": 15,
+    "townId": 1899
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Gürsu",
+    "cityId": 16,
+    "townId": 1935
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Kestel",
+    "cityId": 16,
+    "townId": 1960
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Gemlik",
+    "cityId": 16,
+    "townId": 1343
+  },
+  {
+    "il": "Bursa",
+    "ilce": "İnegöl",
+    "cityId": 16,
+    "townId": 1411
+  },
+  {
+    "il": "Bursa",
+    "ilce": "İznik",
+    "cityId": 16,
+    "townId": 1420
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Karacabey",
+    "cityId": 16,
+    "townId": 1434
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Keles",
+    "cityId": 16,
+    "townId": 1457
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Mudanya",
+    "cityId": 16,
+    "townId": 1530
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Mustafakemalpaşa",
+    "cityId": 16,
+    "townId": 1535
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Orhaneli",
+    "cityId": 16,
+    "townId": 1553
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Orhangazi",
+    "cityId": 16,
+    "townId": 1554
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Yenişehir",
+    "cityId": 16,
+    "townId": 1725
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Büyükorhan",
+    "cityId": 16,
+    "townId": 1783
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Harmancık",
+    "cityId": 16,
+    "townId": 1799
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Nilüfer",
+    "cityId": 16,
+    "townId": 1829
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Osmangazi",
+    "cityId": 16,
+    "townId": 1832
+  },
+  {
+    "il": "Bursa",
+    "ilce": "Yıldırım",
+    "cityId": 16,
+    "townId": 1859
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Ayvacık",
+    "cityId": 17,
+    "townId": 1160
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Bayramiç",
+    "cityId": 17,
+    "townId": 1180
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Biga",
+    "cityId": 17,
+    "townId": 1190
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Bozcaada",
+    "cityId": 17,
+    "townId": 1205
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Çan",
+    "cityId": 17,
+    "townId": 1229
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Merkez",
+    "cityId": 17,
+    "townId": 1230
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Eceabat",
+    "cityId": 17,
+    "townId": 1293
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Ezine",
+    "cityId": 17,
+    "townId": 1326
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Gelibolu",
+    "cityId": 17,
+    "townId": 1340
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Gökçeada",
+    "cityId": 17,
+    "townId": 1408
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Lapseki",
+    "cityId": 17,
+    "townId": 1503
+  },
+  {
+    "il": "Çanakkale",
+    "ilce": "Yenice",
+    "cityId": 17,
+    "townId": 1722
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Korgun",
+    "cityId": 18,
+    "townId": 1963
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Merkez",
+    "cityId": 18,
+    "townId": 1232
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Çerkeş",
+    "cityId": 18,
+    "townId": 1248
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Eldivan",
+    "cityId": 18,
+    "townId": 1300
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Ilgaz",
+    "cityId": 18,
+    "townId": 1399
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Kurşunlu",
+    "cityId": 18,
+    "townId": 1494
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Orta",
+    "cityId": 18,
+    "townId": 1555
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Şabanözü",
+    "cityId": 18,
+    "townId": 1649
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Yapraklı",
+    "cityId": 18,
+    "townId": 1718
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Atkaracalar",
+    "cityId": 18,
+    "townId": 1765
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Kızılırmak",
+    "cityId": 18,
+    "townId": 1817
+  },
+  {
+    "il": "Çankırı",
+    "ilce": "Bayramören",
+    "cityId": 18,
+    "townId": 1885
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Dodurga",
+    "cityId": 19,
+    "townId": 1911
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Laçin",
+    "cityId": 19,
+    "townId": 1972
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Oğuzlar",
+    "cityId": 19,
+    "townId": 1976
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Alaca",
+    "cityId": 19,
+    "townId": 1124
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Bayat",
+    "cityId": 19,
+    "townId": 1177
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Merkez",
+    "cityId": 19,
+    "townId": 1259
+  },
+  {
+    "il": "Çorum",
+    "ilce": "İskilip",
+    "cityId": 19,
+    "townId": 1414
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Kargı",
+    "cityId": 19,
+    "townId": 1445
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Mecitözü",
+    "cityId": 19,
+    "townId": 1520
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Boğazkale",
+    "cityId": 19,
+    "townId": 1778
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Ortaköy",
+    "cityId": 19,
+    "townId": 1556
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Osmancık",
+    "cityId": 19,
+    "townId": 1558
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Sungurlu",
+    "cityId": 19,
+    "townId": 1642
+  },
+  {
+    "il": "Çorum",
+    "ilce": "Uğurludağ",
+    "cityId": 19,
+    "townId": 1850
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Kale",
+    "cityId": 20,
+    "townId": 1426
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Sarayköy",
+    "cityId": 20,
+    "townId": 1597
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Tavas",
+    "cityId": 20,
+    "townId": 1670
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Babadağ",
+    "cityId": 20,
+    "townId": 1769
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Bekilli",
+    "cityId": 20,
+    "townId": 1774
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Honaz",
+    "cityId": 20,
+    "townId": 1803
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Serinhisar",
+    "cityId": 20,
+    "townId": 1840
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Pamukkale",
+    "cityId": 20,
+    "townId": 1871
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Baklan",
+    "cityId": 20,
+    "townId": 1881
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Beyağaç",
+    "cityId": 20,
+    "townId": 1888
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Bozkurt",
+    "cityId": 20,
+    "townId": 1889
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Merkezefendi",
+    "cityId": 20,
+    "townId": 2079
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Acıpayam",
+    "cityId": 20,
+    "townId": 1102
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Buldan",
+    "cityId": 20,
+    "townId": 1214
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Çal",
+    "cityId": 20,
+    "townId": 1224
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Çameli",
+    "cityId": 20,
+    "townId": 1226
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Çardak",
+    "cityId": 20,
+    "townId": 1233
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Çivril",
+    "cityId": 20,
+    "townId": 1257
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Merkez",
+    "cityId": 20,
+    "townId": 1271
+  },
+  {
+    "il": "Denizli",
+    "ilce": "Güney",
+    "cityId": 20,
+    "townId": 1371
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Kulp",
+    "cityId": 21,
+    "townId": 1490
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Lice",
+    "cityId": 21,
+    "townId": 1504
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Silvan",
+    "cityId": 21,
+    "townId": 1624
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Eğil",
+    "cityId": 21,
+    "townId": 1791
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Kocaköy",
+    "cityId": 21,
+    "townId": 1962
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Bağlar",
+    "cityId": 21,
+    "townId": 2040
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Kayapınar",
+    "cityId": 21,
+    "townId": 2041
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Sur",
+    "cityId": 21,
+    "townId": 2042
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Yenişehir",
+    "cityId": 21,
+    "townId": 2043
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Bismil",
+    "cityId": 21,
+    "townId": 1195
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Çermik",
+    "cityId": 21,
+    "townId": 1249
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Çınar",
+    "cityId": 21,
+    "townId": 1253
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Çüngüş",
+    "cityId": 21,
+    "townId": 1263
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Dicle",
+    "cityId": 21,
+    "townId": 1278
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Ergani",
+    "cityId": 21,
+    "townId": 1315
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Hani",
+    "cityId": 21,
+    "townId": 1381
+  },
+  {
+    "il": "Diyarbakır",
+    "ilce": "Hazro",
+    "cityId": 21,
+    "townId": 1389
+  },
+  {
+    "il": "Düzce",
+    "ilce": "Akçakoca",
+    "cityId": 81,
+    "townId": 1116
+  },
+  {
+    "il": "Düzce",
+    "ilce": "Merkez",
+    "cityId": 81,
+    "townId": 1292
+  },
+  {
+    "il": "Düzce",
+    "ilce": "Yığılca",
+    "cityId": 81,
+    "townId": 1730
+  },
+  {
+    "il": "Düzce",
+    "ilce": "Cumayeri",
+    "cityId": 81,
+    "townId": 1784
+  },
+  {
+    "il": "Düzce",
+    "ilce": "Gölyaka",
+    "cityId": 81,
+    "townId": 1794
+  },
+  {
+    "il": "Düzce",
+    "ilce": "Çilimli",
+    "cityId": 81,
+    "townId": 1905
+  },
+  {
+    "il": "Düzce",
+    "ilce": "Gümüşova",
+    "cityId": 81,
+    "townId": 2017
+  },
+  {
+    "il": "Düzce",
+    "ilce": "Kaynaşlı",
+    "cityId": 81,
+    "townId": 2031
+  },
+  {
+    "il": "Edirne",
+    "ilce": "İpsala",
+    "cityId": 22,
+    "townId": 1412
+  },
+  {
+    "il": "Edirne",
+    "ilce": "Keşan",
+    "cityId": 22,
+    "townId": 1464
+  },
+  {
+    "il": "Edirne",
+    "ilce": "Lalapaşa",
+    "cityId": 22,
+    "townId": 1502
+  },
+  {
+    "il": "Edirne",
+    "ilce": "Meriç",
+    "cityId": 22,
+    "townId": 1523
+  },
+  {
+    "il": "Edirne",
+    "ilce": "Uzunköprü",
+    "cityId": 22,
+    "townId": 1705
+  },
+  {
+    "il": "Edirne",
+    "ilce": "Süloğlu",
+    "cityId": 22,
+    "townId": 1988
+  },
+  {
+    "il": "Edirne",
+    "ilce": "Merkez",
+    "cityId": 22,
+    "townId": 1295
+  },
+  {
+    "il": "Edirne",
+    "ilce": "Enez",
+    "cityId": 22,
+    "townId": 1307
+  },
+  {
+    "il": "Edirne",
+    "ilce": "Havsa",
+    "cityId": 22,
+    "townId": 1385
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Karakoçan",
+    "cityId": 23,
+    "townId": 1438
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Keban",
+    "cityId": 23,
+    "townId": 1455
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Maden",
+    "cityId": 23,
+    "townId": 1506
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Palu",
+    "cityId": 23,
+    "townId": 1566
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Sivrice",
+    "cityId": 23,
+    "townId": 1631
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Arıcak",
+    "cityId": 23,
+    "townId": 1762
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Kovancılar",
+    "cityId": 23,
+    "townId": 1820
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Alacakaya",
+    "cityId": 23,
+    "townId": 1873
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Ağın",
+    "cityId": 23,
+    "townId": 1110
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Baskil",
+    "cityId": 23,
+    "townId": 1173
+  },
+  {
+    "il": "Elazığ",
+    "ilce": "Merkez",
+    "cityId": 23,
+    "townId": 1298
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "İliç",
+    "cityId": 24,
+    "townId": 1406
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "Kemah",
+    "cityId": 24,
+    "townId": 1459
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "Kemaliye",
+    "cityId": 24,
+    "townId": 1460
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "Refahiye",
+    "cityId": 24,
+    "townId": 1583
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "Tercan",
+    "cityId": 24,
+    "townId": 1675
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "Üzümlü",
+    "cityId": 24,
+    "townId": 1853
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "Otlukbeli",
+    "cityId": 24,
+    "townId": 1977
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "Çayırlı",
+    "cityId": 24,
+    "townId": 1243
+  },
+  {
+    "il": "Erzincan",
+    "ilce": "Merkez",
+    "cityId": 24,
+    "townId": 1318
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Şenkaya",
+    "cityId": 25,
+    "townId": 1657
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Tekman",
+    "cityId": 25,
+    "townId": 1674
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Tortum",
+    "cityId": 25,
+    "townId": 1683
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Karaçoban",
+    "cityId": 25,
+    "townId": 1812
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Uzundere",
+    "cityId": 25,
+    "townId": 1851
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Pazaryolu",
+    "cityId": 25,
+    "townId": 1865
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Köprüköy",
+    "cityId": 25,
+    "townId": 1967
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Palandöken",
+    "cityId": 25,
+    "townId": 2044
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Yakutiye",
+    "cityId": 25,
+    "townId": 2045
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Horasan",
+    "cityId": 25,
+    "townId": 1396
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Aziziye",
+    "cityId": 25,
+    "townId": 1945
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "İspir",
+    "cityId": 25,
+    "townId": 1416
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Karayazı",
+    "cityId": 25,
+    "townId": 1444
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Narman",
+    "cityId": 25,
+    "townId": 1540
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Oltu",
+    "cityId": 25,
+    "townId": 1550
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Olur",
+    "cityId": 25,
+    "townId": 1551
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Pasinler",
+    "cityId": 25,
+    "townId": 1567
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Aşkale",
+    "cityId": 25,
+    "townId": 1153
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Çat",
+    "cityId": 25,
+    "townId": 1235
+  },
+  {
+    "il": "Erzurum",
+    "ilce": "Hınıs",
+    "cityId": 25,
+    "townId": 1392
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Alpu",
+    "cityId": 26,
+    "townId": 1759
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Beylikova",
+    "cityId": 26,
+    "townId": 1777
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "İnönü",
+    "cityId": 26,
+    "townId": 1808
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Günyüzü",
+    "cityId": 26,
+    "townId": 1934
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Han",
+    "cityId": 26,
+    "townId": 1939
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Mihalgazi",
+    "cityId": 26,
+    "townId": 1973
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Odunpazarı",
+    "cityId": 26,
+    "townId": 2046
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Tepebaşı",
+    "cityId": 26,
+    "townId": 2047
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Çifteler",
+    "cityId": 26,
+    "townId": 1255
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Mahmudiye",
+    "cityId": 26,
+    "townId": 1508
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Mihalıcçık",
+    "cityId": 26,
+    "townId": 1527
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Sarıcakaya",
+    "cityId": 26,
+    "townId": 1599
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Seyitgazi",
+    "cityId": 26,
+    "townId": 1618
+  },
+  {
+    "il": "Eskişehir",
+    "ilce": "Sivrihisar",
+    "cityId": 26,
+    "townId": 1632
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "Yavuzeli",
+    "cityId": 27,
+    "townId": 1720
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "Şahinbey",
+    "cityId": 27,
+    "townId": 1841
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "Şehitkamil",
+    "cityId": 27,
+    "townId": 1844
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "Karkamış",
+    "cityId": 27,
+    "townId": 1956
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "Nurdağı",
+    "cityId": 27,
+    "townId": 1974
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "Araban",
+    "cityId": 27,
+    "townId": 1139
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "İslahiye",
+    "cityId": 27,
+    "townId": 1415
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "Nizip",
+    "cityId": 27,
+    "townId": 1546
+  },
+  {
+    "il": "Gaziantep",
+    "ilce": "Oğuzeli",
+    "cityId": 27,
+    "townId": 1549
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Çamoluk",
+    "cityId": 28,
+    "townId": 1893
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Çanakçı",
+    "cityId": 28,
+    "townId": 1894
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Doğankent",
+    "cityId": 28,
+    "townId": 1912
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Alucra",
+    "cityId": 28,
+    "townId": 1133
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Bulancak",
+    "cityId": 28,
+    "townId": 1212
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Dereli",
+    "cityId": 28,
+    "townId": 1272
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Espiye",
+    "cityId": 28,
+    "townId": 1320
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Eynesil",
+    "cityId": 28,
+    "townId": 1324
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Görele",
+    "cityId": 28,
+    "townId": 1361
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Merkez",
+    "cityId": 28,
+    "townId": 1352
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Keşap",
+    "cityId": 28,
+    "townId": 1465
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Şebinkarahisar",
+    "cityId": 28,
+    "townId": 1654
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Tirebolu",
+    "cityId": 28,
+    "townId": 1678
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Piraziz",
+    "cityId": 28,
+    "townId": 1837
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Yağlıdere",
+    "cityId": 28,
+    "townId": 1854
+  },
+  {
+    "il": "Giresun",
+    "ilce": "Güce",
+    "cityId": 28,
+    "townId": 1930
+  },
+  {
+    "il": "Gümüşhane",
+    "ilce": "Merkez",
+    "cityId": 29,
+    "townId": 1369
+  },
+  {
+    "il": "Gümüşhane",
+    "ilce": "Kelkit",
+    "cityId": 29,
+    "townId": 1458
+  },
+  {
+    "il": "Gümüşhane",
+    "ilce": "Şiran",
+    "cityId": 29,
+    "townId": 1660
+  },
+  {
+    "il": "Gümüşhane",
+    "ilce": "Torul",
+    "cityId": 29,
+    "townId": 1684
+  },
+  {
+    "il": "Gümüşhane",
+    "ilce": "Köse",
+    "cityId": 29,
+    "townId": 1822
+  },
+  {
+    "il": "Gümüşhane",
+    "ilce": "Kürtün",
+    "cityId": 29,
+    "townId": 1971
+  },
+  {
+    "il": "Hakkari",
+    "ilce": "Çukurca",
+    "cityId": 30,
+    "townId": 1261
+  },
+  {
+    "il": "Hakkari",
+    "ilce": "Merkez",
+    "cityId": 30,
+    "townId": 1377
+  },
+  {
+    "il": "Hakkari",
+    "ilce": "Şemdinli",
+    "cityId": 30,
+    "townId": 1656
+  },
+  {
+    "il": "Hakkari",
+    "ilce": "Yüksekova",
+    "cityId": 30,
+    "townId": 1737
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Dörtyol",
+    "cityId": 31,
+    "townId": 1289
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Hassa",
+    "cityId": 31,
+    "townId": 1382
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Merkez",
+    "cityId": 31,
+    "townId": 1383
+  },
+  {
+    "il": "Hatay",
+    "ilce": "İskenderun",
+    "cityId": 31,
+    "townId": 1413
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Kırıkhan",
+    "cityId": 31,
+    "townId": 1468
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Reyhanlı",
+    "cityId": 31,
+    "townId": 1585
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Samandağ",
+    "cityId": 31,
+    "townId": 1591
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Yayladağı",
+    "cityId": 31,
+    "townId": 1721
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Erzin",
+    "cityId": 31,
+    "townId": 1792
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Belen",
+    "cityId": 31,
+    "townId": 1887
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Kumlu",
+    "cityId": 31,
+    "townId": 1970
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Antakya",
+    "cityId": 31,
+    "townId": 2080
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Arsuz",
+    "cityId": 31,
+    "townId": 2081
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Defne",
+    "cityId": 31,
+    "townId": 2082
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Payas",
+    "cityId": 31,
+    "townId": 2083
+  },
+  {
+    "il": "Hatay",
+    "ilce": "Altınözü",
+    "cityId": 31,
+    "townId": 1131
+  },
+  {
+    "il": "Iğdır",
+    "ilce": "Aralık",
+    "cityId": 76,
+    "townId": 1142
+  },
+  {
+    "il": "Iğdır",
+    "ilce": "Merkez",
+    "cityId": 76,
+    "townId": 1398
+  },
+  {
+    "il": "Iğdır",
+    "ilce": "Tuzluca",
+    "cityId": 76,
+    "townId": 1692
+  },
+  {
+    "il": "Iğdır",
+    "ilce": "Karakoyunlu",
+    "cityId": 76,
+    "townId": 2011
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Eğirdir",
+    "cityId": 32,
+    "townId": 1297
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Gelendost",
+    "cityId": 32,
+    "townId": 1341
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Merkez",
+    "cityId": 32,
+    "townId": 1401
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Keçiborlu",
+    "cityId": 32,
+    "townId": 1456
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Senirkent",
+    "cityId": 32,
+    "townId": 1615
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Sütçüler",
+    "cityId": 32,
+    "townId": 1648
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Şarkikaraağaç",
+    "cityId": 32,
+    "townId": 1651
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Uluborlu",
+    "cityId": 32,
+    "townId": 1699
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Yalvaç",
+    "cityId": 32,
+    "townId": 1717
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Aksu",
+    "cityId": 32,
+    "townId": 1755
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Gönen",
+    "cityId": 32,
+    "townId": 1929
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Yenişarbademli",
+    "cityId": 32,
+    "townId": 2001
+  },
+  {
+    "il": "Isparta",
+    "ilce": "Atabey",
+    "cityId": 32,
+    "townId": 1154
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Üsküdar",
+    "cityId": 34,
+    "townId": 1708
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Zeytinburnu",
+    "cityId": 34,
+    "townId": 1739
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Beyoğlu",
+    "cityId": 34,
+    "townId": 1186
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Çatalca",
+    "cityId": 34,
+    "townId": 1237
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Eyüp",
+    "cityId": 34,
+    "townId": 1325
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Fatih",
+    "cityId": 34,
+    "townId": 1327
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Gaziosmanpaşa",
+    "cityId": 34,
+    "townId": 1336
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Kadıköy",
+    "cityId": 34,
+    "townId": 1421
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Kartal",
+    "cityId": 34,
+    "townId": 1449
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Sarıyer",
+    "cityId": 34,
+    "townId": 1604
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Silivri",
+    "cityId": 34,
+    "townId": 1622
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Şile",
+    "cityId": 34,
+    "townId": 1659
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Şişli",
+    "cityId": 34,
+    "townId": 1663
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Büyükçekmece",
+    "cityId": 34,
+    "townId": 1782
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Kağıthane",
+    "cityId": 34,
+    "townId": 1810
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Küçükçekmece",
+    "cityId": 34,
+    "townId": 1823
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Pendik",
+    "cityId": 34,
+    "townId": 1835
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Ümraniye",
+    "cityId": 34,
+    "townId": 1852
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Bayrampaşa",
+    "cityId": 34,
+    "townId": 1886
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Avcılar",
+    "cityId": 34,
+    "townId": 2003
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Bağcılar",
+    "cityId": 34,
+    "townId": 2004
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Bahçelievler",
+    "cityId": 34,
+    "townId": 2005
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Güngören",
+    "cityId": 34,
+    "townId": 2010
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Maltepe",
+    "cityId": 34,
+    "townId": 2012
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Sultanbeyli",
+    "cityId": 34,
+    "townId": 2014
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Tuzla",
+    "cityId": 34,
+    "townId": 2015
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Esenler",
+    "cityId": 34,
+    "townId": 2016
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Arnavutköy",
+    "cityId": 34,
+    "townId": 2048
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Ataşehir",
+    "cityId": 34,
+    "townId": 2049
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Başakşehir",
+    "cityId": 34,
+    "townId": 2050
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Beylikdüzü",
+    "cityId": 34,
+    "townId": 2051
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Çekmeköy",
+    "cityId": 34,
+    "townId": 2052
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Esenyurt",
+    "cityId": 34,
+    "townId": 2053
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Sancaktepe",
+    "cityId": 34,
+    "townId": 2054
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Sultangazi",
+    "cityId": 34,
+    "townId": 2055
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Adalar",
+    "cityId": 34,
+    "townId": 1103
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Bakırköy",
+    "cityId": 34,
+    "townId": 1166
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Beşiktaş",
+    "cityId": 34,
+    "townId": 1183
+  },
+  {
+    "il": "İstanbul",
+    "ilce": "Beykoz",
+    "cityId": 34,
+    "townId": 1185
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Karaburun",
+    "cityId": 35,
+    "townId": 1432
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Karşıyaka",
+    "cityId": 35,
+    "townId": 1448
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Kemalpaşa",
+    "cityId": 35,
+    "townId": 1461
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Kınık",
+    "cityId": 35,
+    "townId": 1467
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Kiraz",
+    "cityId": 35,
+    "townId": 1477
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Menemen",
+    "cityId": 35,
+    "townId": 1521
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Beydağ",
+    "cityId": 35,
+    "townId": 1776
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Buca",
+    "cityId": 35,
+    "townId": 1780
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Konak",
+    "cityId": 35,
+    "townId": 1819
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Menderes",
+    "cityId": 35,
+    "townId": 1826
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Balçova",
+    "cityId": 35,
+    "townId": 2006
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Çiğli",
+    "cityId": 35,
+    "townId": 2007
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Gaziemir",
+    "cityId": 35,
+    "townId": 2009
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Güzelbahçe",
+    "cityId": 35,
+    "townId": 2018
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Bayraklı",
+    "cityId": 35,
+    "townId": 2056
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Karabağlar",
+    "cityId": 35,
+    "townId": 2057
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Aliağa",
+    "cityId": 35,
+    "townId": 1128
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Bayındır",
+    "cityId": 35,
+    "townId": 1178
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Bergama",
+    "cityId": 35,
+    "townId": 1181
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Bornova",
+    "cityId": 35,
+    "townId": 1203
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Çeşme",
+    "cityId": 35,
+    "townId": 1251
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Dikili",
+    "cityId": 35,
+    "townId": 1280
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Foça",
+    "cityId": 35,
+    "townId": 1334
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Narlıdere",
+    "cityId": 35,
+    "townId": 2013
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Ödemiş",
+    "cityId": 35,
+    "townId": 1563
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Seferihisar",
+    "cityId": 35,
+    "townId": 1611
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Selçuk",
+    "cityId": 35,
+    "townId": 1612
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Tire",
+    "cityId": 35,
+    "townId": 1677
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Torbalı",
+    "cityId": 35,
+    "townId": 1682
+  },
+  {
+    "il": "İzmir",
+    "ilce": "Urla",
+    "cityId": 35,
+    "townId": 1703
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Nurhak",
+    "cityId": 46,
+    "townId": 1975
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Onikişubat",
+    "cityId": 46,
+    "townId": 2085
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Çağlayancerit",
+    "cityId": 46,
+    "townId": 1785
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Ekinözü",
+    "cityId": 46,
+    "townId": 1919
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Dulkadiroğlu",
+    "cityId": 46,
+    "townId": 2084
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Elbistan",
+    "cityId": 46,
+    "townId": 1299
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Göksun",
+    "cityId": 46,
+    "townId": 1353
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Merkez",
+    "cityId": 46,
+    "townId": 1515
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Pazarcık",
+    "cityId": 46,
+    "townId": 1570
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Türkoğlu",
+    "cityId": 46,
+    "townId": 1694
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Afşin",
+    "cityId": 46,
+    "townId": 1107
+  },
+  {
+    "il": "Kahramanmaraş",
+    "ilce": "Andırın",
+    "cityId": 46,
+    "townId": 1136
+  },
+  {
+    "il": "Karabük",
+    "ilce": "Eflani",
+    "cityId": 78,
+    "townId": 1296
+  },
+  {
+    "il": "Karabük",
+    "ilce": "Eskipazar",
+    "cityId": 78,
+    "townId": 1321
+  },
+  {
+    "il": "Karabük",
+    "ilce": "Merkez",
+    "cityId": 78,
+    "townId": 1433
+  },
+  {
+    "il": "Karabük",
+    "ilce": "Ovacık",
+    "cityId": 78,
+    "townId": 1561
+  },
+  {
+    "il": "Karabük",
+    "ilce": "Safranbolu",
+    "cityId": 78,
+    "townId": 1587
+  },
+  {
+    "il": "Karabük",
+    "ilce": "Yenice",
+    "cityId": 78,
+    "townId": 1856
+  },
+  {
+    "il": "Karaman",
+    "ilce": "Ermenek",
+    "cityId": 70,
+    "townId": 1316
+  },
+  {
+    "il": "Karaman",
+    "ilce": "Merkez",
+    "cityId": 70,
+    "townId": 1439
+  },
+  {
+    "il": "Karaman",
+    "ilce": "Ayrancı",
+    "cityId": 70,
+    "townId": 1768
+  },
+  {
+    "il": "Karaman",
+    "ilce": "Kazımkarabekir",
+    "cityId": 70,
+    "townId": 1862
+  },
+  {
+    "il": "Karaman",
+    "ilce": "Başyayla",
+    "cityId": 70,
+    "townId": 1884
+  },
+  {
+    "il": "Karaman",
+    "ilce": "Sarıveliler",
+    "cityId": 70,
+    "townId": 1983
+  },
+  {
+    "il": "Kars",
+    "ilce": "Arpaçay",
+    "cityId": 36,
+    "townId": 1149
+  },
+  {
+    "il": "Kars",
+    "ilce": "Digor",
+    "cityId": 36,
+    "townId": 1279
+  },
+  {
+    "il": "Kars",
+    "ilce": "Kağızman",
+    "cityId": 36,
+    "townId": 1424
+  },
+  {
+    "il": "Kars",
+    "ilce": "Merkez",
+    "cityId": 36,
+    "townId": 1447
+  },
+  {
+    "il": "Kars",
+    "ilce": "Sarıkamış",
+    "cityId": 36,
+    "townId": 1601
+  },
+  {
+    "il": "Kars",
+    "ilce": "Selim",
+    "cityId": 36,
+    "townId": 1614
+  },
+  {
+    "il": "Kars",
+    "ilce": "Susuz",
+    "cityId": 36,
+    "townId": 1645
+  },
+  {
+    "il": "Kars",
+    "ilce": "Akyaka",
+    "cityId": 36,
+    "townId": 1756
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Araç",
+    "cityId": 37,
+    "townId": 1140
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Azdavay",
+    "cityId": 37,
+    "townId": 1162
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Bozkurt",
+    "cityId": 37,
+    "townId": 1208
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Cide",
+    "cityId": 37,
+    "townId": 1221
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Çatalzeytin",
+    "cityId": 37,
+    "townId": 1238
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Daday",
+    "cityId": 37,
+    "townId": 1264
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Devrekani",
+    "cityId": 37,
+    "townId": 1277
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "İnebolu",
+    "cityId": 37,
+    "townId": 1410
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Merkez",
+    "cityId": 37,
+    "townId": 1450
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Küre",
+    "cityId": 37,
+    "townId": 1499
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Taşköprü",
+    "cityId": 37,
+    "townId": 1666
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Tosya",
+    "cityId": 37,
+    "townId": 1685
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "İhsangazi",
+    "cityId": 37,
+    "townId": 1805
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Pınarbaşı",
+    "cityId": 37,
+    "townId": 1836
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Şenpazar",
+    "cityId": 37,
+    "townId": 1845
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Doğanyurt",
+    "cityId": 37,
+    "townId": 1915
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Hanönü",
+    "cityId": 37,
+    "townId": 1940
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Seydiler",
+    "cityId": 37,
+    "townId": 1984
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Abana",
+    "cityId": 37,
+    "townId": 1101
+  },
+  {
+    "il": "Kastamonu",
+    "ilce": "Ağlı",
+    "cityId": 37,
+    "townId": 1867
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Bünyan",
+    "cityId": 38,
+    "townId": 1218
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Develi",
+    "cityId": 38,
+    "townId": 1275
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Felahiye",
+    "cityId": 38,
+    "townId": 1330
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "İncesu",
+    "cityId": 38,
+    "townId": 1409
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Pınarbaşı",
+    "cityId": 38,
+    "townId": 1576
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Sarıoğlan",
+    "cityId": 38,
+    "townId": 1603
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Sarız",
+    "cityId": 38,
+    "townId": 1605
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Tomarza",
+    "cityId": 38,
+    "townId": 1680
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Yahyalı",
+    "cityId": 38,
+    "townId": 1715
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Yeşilhisar",
+    "cityId": 38,
+    "townId": 1727
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Akkışla",
+    "cityId": 38,
+    "townId": 1752
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Talas",
+    "cityId": 38,
+    "townId": 1846
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Kocasinan",
+    "cityId": 38,
+    "townId": 1863
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Melikgazi",
+    "cityId": 38,
+    "townId": 1864
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Hacılar",
+    "cityId": 38,
+    "townId": 1936
+  },
+  {
+    "il": "Kayseri",
+    "ilce": "Özvatan",
+    "cityId": 38,
+    "townId": 1978
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Delice",
+    "cityId": 71,
+    "townId": 1268
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Keskin",
+    "cityId": 71,
+    "townId": 1463
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Merkez",
+    "cityId": 71,
+    "townId": 1469
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Sulakyurt",
+    "cityId": 71,
+    "townId": 1638
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Bahşili",
+    "cityId": 71,
+    "townId": 1880
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Balışeyh",
+    "cityId": 71,
+    "townId": 1882
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Çelebi",
+    "cityId": 71,
+    "townId": 1901
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Karakeçili",
+    "cityId": 71,
+    "townId": 1954
+  },
+  {
+    "il": "Kırıkkale",
+    "ilce": "Yahşihan",
+    "cityId": 71,
+    "townId": 1992
+  },
+  {
+    "il": "Kırklareli",
+    "ilce": "Babaeski",
+    "cityId": 39,
+    "townId": 1163
+  },
+  {
+    "il": "Kırklareli",
+    "ilce": "Demirköy",
+    "cityId": 39,
+    "townId": 1270
+  },
+  {
+    "il": "Kırklareli",
+    "ilce": "Merkez",
+    "cityId": 39,
+    "townId": 1471
+  },
+  {
+    "il": "Kırklareli",
+    "ilce": "Kofçaz",
+    "cityId": 39,
+    "townId": 1480
+  },
+  {
+    "il": "Kırklareli",
+    "ilce": "Lüleburgaz",
+    "cityId": 39,
+    "townId": 1505
+  },
+  {
+    "il": "Kırklareli",
+    "ilce": "Pehlivanköy",
+    "cityId": 39,
+    "townId": 1572
+  },
+  {
+    "il": "Kırklareli",
+    "ilce": "Pınarhisar",
+    "cityId": 39,
+    "townId": 1577
+  },
+  {
+    "il": "Kırklareli",
+    "ilce": "Vize",
+    "cityId": 39,
+    "townId": 1714
+  },
+  {
+    "il": "Kırşehir",
+    "ilce": "Çiçekdağı",
+    "cityId": 40,
+    "townId": 1254
+  },
+  {
+    "il": "Kırşehir",
+    "ilce": "Kaman",
+    "cityId": 40,
+    "townId": 1429
+  },
+  {
+    "il": "Kırşehir",
+    "ilce": "Merkez",
+    "cityId": 40,
+    "townId": 1472
+  },
+  {
+    "il": "Kırşehir",
+    "ilce": "Mucur",
+    "cityId": 40,
+    "townId": 1529
+  },
+  {
+    "il": "Kırşehir",
+    "ilce": "Akpınar",
+    "cityId": 40,
+    "townId": 1754
+  },
+  {
+    "il": "Kırşehir",
+    "ilce": "Akçakent",
+    "cityId": 40,
+    "townId": 1869
+  },
+  {
+    "il": "Kırşehir",
+    "ilce": "Boztepe",
+    "cityId": 40,
+    "townId": 1890
+  },
+  {
+    "il": "Kilis",
+    "ilce": "Merkez",
+    "cityId": 79,
+    "townId": 1476
+  },
+  {
+    "il": "Kilis",
+    "ilce": "Elbeyli",
+    "cityId": 79,
+    "townId": 2023
+  },
+  {
+    "il": "Kilis",
+    "ilce": "Musabeyli",
+    "cityId": 79,
+    "townId": 2024
+  },
+  {
+    "il": "Kilis",
+    "ilce": "Polateli",
+    "cityId": 79,
+    "townId": 2025
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Gebze",
+    "cityId": 41,
+    "townId": 1338
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Gölcük",
+    "cityId": 41,
+    "townId": 1355
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Kandıra",
+    "cityId": 41,
+    "townId": 1430
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Karamürsel",
+    "cityId": 41,
+    "townId": 1440
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Körfez",
+    "cityId": 41,
+    "townId": 1821
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Derince",
+    "cityId": 41,
+    "townId": 2030
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Başiskele",
+    "cityId": 41,
+    "townId": 2058
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Çayırova",
+    "cityId": 41,
+    "townId": 2059
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Darıca",
+    "cityId": 41,
+    "townId": 2060
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Dilovası",
+    "cityId": 41,
+    "townId": 2061
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "İzmit",
+    "cityId": 41,
+    "townId": 2062
+  },
+  {
+    "il": "Kocaeli",
+    "ilce": "Kartepe",
+    "cityId": 41,
+    "townId": 2063
+  },
+  {
+    "il": "Konya",
+    "ilce": "Akşehir",
+    "cityId": 42,
+    "townId": 1122
+  },
+  {
+    "il": "Konya",
+    "ilce": "Beyşehir",
+    "cityId": 42,
+    "townId": 1188
+  },
+  {
+    "il": "Konya",
+    "ilce": "Bozkır",
+    "cityId": 42,
+    "townId": 1207
+  },
+  {
+    "il": "Konya",
+    "ilce": "Cihanbeyli",
+    "cityId": 42,
+    "townId": 1222
+  },
+  {
+    "il": "Konya",
+    "ilce": "Çumra",
+    "cityId": 42,
+    "townId": 1262
+  },
+  {
+    "il": "Konya",
+    "ilce": "Doğanhisar",
+    "cityId": 42,
+    "townId": 1285
+  },
+  {
+    "il": "Konya",
+    "ilce": "Ereğli",
+    "cityId": 42,
+    "townId": 1312
+  },
+  {
+    "il": "Konya",
+    "ilce": "Hadim",
+    "cityId": 42,
+    "townId": 1375
+  },
+  {
+    "il": "Konya",
+    "ilce": "Ilgın",
+    "cityId": 42,
+    "townId": 1400
+  },
+  {
+    "il": "Konya",
+    "ilce": "Kadınhanı",
+    "cityId": 42,
+    "townId": 1422
+  },
+  {
+    "il": "Konya",
+    "ilce": "Karapınar",
+    "cityId": 42,
+    "townId": 1441
+  },
+  {
+    "il": "Konya",
+    "ilce": "Kulu",
+    "cityId": 42,
+    "townId": 1491
+  },
+  {
+    "il": "Konya",
+    "ilce": "Sarayönü",
+    "cityId": 42,
+    "townId": 1598
+  },
+  {
+    "il": "Konya",
+    "ilce": "Seydişehir",
+    "cityId": 42,
+    "townId": 1617
+  },
+  {
+    "il": "Konya",
+    "ilce": "Yunak",
+    "cityId": 42,
+    "townId": 1735
+  },
+  {
+    "il": "Konya",
+    "ilce": "Akören",
+    "cityId": 42,
+    "townId": 1753
+  },
+  {
+    "il": "Konya",
+    "ilce": "Altınekin",
+    "cityId": 42,
+    "townId": 1760
+  },
+  {
+    "il": "Konya",
+    "ilce": "Derebucak",
+    "cityId": 42,
+    "townId": 1789
+  },
+  {
+    "il": "Konya",
+    "ilce": "Hüyük",
+    "cityId": 42,
+    "townId": 1804
+  },
+  {
+    "il": "Konya",
+    "ilce": "Karatay",
+    "cityId": 42,
+    "townId": 1814
+  },
+  {
+    "il": "Konya",
+    "ilce": "Meram",
+    "cityId": 42,
+    "townId": 1827
+  },
+  {
+    "il": "Konya",
+    "ilce": "Selçuklu",
+    "cityId": 42,
+    "townId": 1839
+  },
+  {
+    "il": "Konya",
+    "ilce": "Taşkent",
+    "cityId": 42,
+    "townId": 1848
+  },
+  {
+    "il": "Konya",
+    "ilce": "Ahırlı",
+    "cityId": 42,
+    "townId": 1868
+  },
+  {
+    "il": "Konya",
+    "ilce": "Çeltik",
+    "cityId": 42,
+    "townId": 1902
+  },
+  {
+    "il": "Konya",
+    "ilce": "Derbent",
+    "cityId": 42,
+    "townId": 1907
+  },
+  {
+    "il": "Konya",
+    "ilce": "Emirgazi",
+    "cityId": 42,
+    "townId": 1920
+  },
+  {
+    "il": "Konya",
+    "ilce": "Güneysınır",
+    "cityId": 42,
+    "townId": 1933
+  },
+  {
+    "il": "Konya",
+    "ilce": "Halkapınar",
+    "cityId": 42,
+    "townId": 1937
+  },
+  {
+    "il": "Konya",
+    "ilce": "Tuzlukçu",
+    "cityId": 42,
+    "townId": 1990
+  },
+  {
+    "il": "Konya",
+    "ilce": "Yalıhüyük",
+    "cityId": 42,
+    "townId": 1994
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Merkez",
+    "cityId": 43,
+    "townId": 1500
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Simav",
+    "cityId": 43,
+    "townId": 1625
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Şaphane",
+    "cityId": 43,
+    "townId": 1843
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Pazarlar",
+    "cityId": 43,
+    "townId": 1979
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Altıntaş",
+    "cityId": 43,
+    "townId": 1132
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Domaniç",
+    "cityId": 43,
+    "townId": 1288
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Emet",
+    "cityId": 43,
+    "townId": 1304
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Gediz",
+    "cityId": 43,
+    "townId": 1339
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Aslanapa",
+    "cityId": 43,
+    "townId": 1764
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Dumlupınar",
+    "cityId": 43,
+    "townId": 1790
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Hisarcık",
+    "cityId": 43,
+    "townId": 1802
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Çavdarhisar",
+    "cityId": 43,
+    "townId": 1898
+  },
+  {
+    "il": "Kütahya",
+    "ilce": "Tavşanlı",
+    "cityId": 43,
+    "townId": 1671
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Yeşilyurt",
+    "cityId": 44,
+    "townId": 1729
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Battalgazi",
+    "cityId": 44,
+    "townId": 1772
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Doğanyol",
+    "cityId": 44,
+    "townId": 1914
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Kale",
+    "cityId": 44,
+    "townId": 1953
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Kuluncak",
+    "cityId": 44,
+    "townId": 1969
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Yazıhan",
+    "cityId": 44,
+    "townId": 1995
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Akçadağ",
+    "cityId": 44,
+    "townId": 1114
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Arapgir",
+    "cityId": 44,
+    "townId": 1143
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Arguvan",
+    "cityId": 44,
+    "townId": 1148
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Darende",
+    "cityId": 44,
+    "townId": 1265
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Doğanşehir",
+    "cityId": 44,
+    "townId": 1286
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Hekimhan",
+    "cityId": 44,
+    "townId": 1390
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Merkez",
+    "cityId": 44,
+    "townId": 1509
+  },
+  {
+    "il": "Malatya",
+    "ilce": "Pütürge",
+    "cityId": 44,
+    "townId": 1582
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Turgutlu",
+    "cityId": 45,
+    "townId": 1689
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Ahmetli",
+    "cityId": 45,
+    "townId": 1751
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Gölmarmara",
+    "cityId": 45,
+    "townId": 1793
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Köprübaşı",
+    "cityId": 45,
+    "townId": 1965
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Şehzadeler",
+    "cityId": 45,
+    "townId": 2086
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Yunusemre",
+    "cityId": 45,
+    "townId": 2087
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Akhisar",
+    "cityId": 45,
+    "townId": 1118
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Alaşehir",
+    "cityId": 45,
+    "townId": 1127
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Demirci",
+    "cityId": 45,
+    "townId": 1269
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Gördes",
+    "cityId": 45,
+    "townId": 1362
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Kırkağaç",
+    "cityId": 45,
+    "townId": 1470
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Kula",
+    "cityId": 45,
+    "townId": 1489
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Merkez",
+    "cityId": 45,
+    "townId": 1513
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Salihli",
+    "cityId": 45,
+    "townId": 1590
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Sarıgöl",
+    "cityId": 45,
+    "townId": 1600
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Saruhanlı",
+    "cityId": 45,
+    "townId": 1606
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Selendi",
+    "cityId": 45,
+    "townId": 1613
+  },
+  {
+    "il": "Manisa",
+    "ilce": "Soma",
+    "cityId": 45,
+    "townId": 1634
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Yeşilli",
+    "cityId": 47,
+    "townId": 2002
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Artuklu",
+    "cityId": 47,
+    "townId": 2088
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Derik",
+    "cityId": 47,
+    "townId": 1273
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Kızıltepe",
+    "cityId": 47,
+    "townId": 1474
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Mazıdağı",
+    "cityId": 47,
+    "townId": 1519
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Midyat",
+    "cityId": 47,
+    "townId": 1526
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Nusaybin",
+    "cityId": 47,
+    "townId": 1547
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Ömerli",
+    "cityId": 47,
+    "townId": 1564
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Savur",
+    "cityId": 47,
+    "townId": 1609
+  },
+  {
+    "il": "Mardin",
+    "ilce": "Dargeçit",
+    "cityId": 47,
+    "townId": 1787
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Erdemli",
+    "cityId": 33,
+    "townId": 1311
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Gülnar",
+    "cityId": 33,
+    "townId": 1366
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Mut",
+    "cityId": 33,
+    "townId": 1536
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Silifke",
+    "cityId": 33,
+    "townId": 1621
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Tarsus",
+    "cityId": 33,
+    "townId": 1665
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Aydıncık",
+    "cityId": 33,
+    "townId": 1766
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Bozyazı",
+    "cityId": 33,
+    "townId": 1779
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Çamlıyayla",
+    "cityId": 33,
+    "townId": 1892
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Akdeniz",
+    "cityId": 33,
+    "townId": 2064
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Mezitli",
+    "cityId": 33,
+    "townId": 2065
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Toroslar",
+    "cityId": 33,
+    "townId": 2066
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Yenişehir",
+    "cityId": 33,
+    "townId": 2067
+  },
+  {
+    "il": "Mersin",
+    "ilce": "Anamur",
+    "cityId": 33,
+    "townId": 1135
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Kavaklıdere",
+    "cityId": 48,
+    "townId": 1958
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Menteşe",
+    "cityId": 48,
+    "townId": 2089
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Seydikemer",
+    "cityId": 48,
+    "townId": 2090
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Bodrum",
+    "cityId": 48,
+    "townId": 1197
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Datça",
+    "cityId": 48,
+    "townId": 1266
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Fethiye",
+    "cityId": 48,
+    "townId": 1331
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Köyceğiz",
+    "cityId": 48,
+    "townId": 1488
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Marmaris",
+    "cityId": 48,
+    "townId": 1517
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Milas",
+    "cityId": 48,
+    "townId": 1528
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Merkez",
+    "cityId": 48,
+    "townId": 1532
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Ula",
+    "cityId": 48,
+    "townId": 1695
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Yatağan",
+    "cityId": 48,
+    "townId": 1719
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Dalaman",
+    "cityId": 48,
+    "townId": 1742
+  },
+  {
+    "il": "Muğla",
+    "ilce": "Ortaca",
+    "cityId": 48,
+    "townId": 1831
+  },
+  {
+    "il": "Muş",
+    "ilce": "Korkut",
+    "cityId": 49,
+    "townId": 1964
+  },
+  {
+    "il": "Muş",
+    "ilce": "Bulanık",
+    "cityId": 49,
+    "townId": 1213
+  },
+  {
+    "il": "Muş",
+    "ilce": "Malazgirt",
+    "cityId": 49,
+    "townId": 1510
+  },
+  {
+    "il": "Muş",
+    "ilce": "Merkez",
+    "cityId": 49,
+    "townId": 1534
+  },
+  {
+    "il": "Muş",
+    "ilce": "Varto",
+    "cityId": 49,
+    "townId": 1711
+  },
+  {
+    "il": "Muş",
+    "ilce": "Hasköy",
+    "cityId": 49,
+    "townId": 1801
+  },
+  {
+    "il": "Nevşehir",
+    "ilce": "Avanos",
+    "cityId": 50,
+    "townId": 1155
+  },
+  {
+    "il": "Nevşehir",
+    "ilce": "Derinkuyu",
+    "cityId": 50,
+    "townId": 1274
+  },
+  {
+    "il": "Nevşehir",
+    "ilce": "Gülşehir",
+    "cityId": 50,
+    "townId": 1367
+  },
+  {
+    "il": "Nevşehir",
+    "ilce": "Hacıbektaş",
+    "cityId": 50,
+    "townId": 1374
+  },
+  {
+    "il": "Nevşehir",
+    "ilce": "Kozaklı",
+    "cityId": 50,
+    "townId": 1485
+  },
+  {
+    "il": "Nevşehir",
+    "ilce": "Merkez",
+    "cityId": 50,
+    "townId": 1543
+  },
+  {
+    "il": "Nevşehir",
+    "ilce": "Ürgüp",
+    "cityId": 50,
+    "townId": 1707
+  },
+  {
+    "il": "Nevşehir",
+    "ilce": "Acıgöl",
+    "cityId": 50,
+    "townId": 1749
+  },
+  {
+    "il": "Niğde",
+    "ilce": "Çiftlik",
+    "cityId": 51,
+    "townId": 1904
+  },
+  {
+    "il": "Niğde",
+    "ilce": "Bor",
+    "cityId": 51,
+    "townId": 1201
+  },
+  {
+    "il": "Niğde",
+    "ilce": "Çamardı",
+    "cityId": 51,
+    "townId": 1225
+  },
+  {
+    "il": "Niğde",
+    "ilce": "Merkez",
+    "cityId": 51,
+    "townId": 1544
+  },
+  {
+    "il": "Niğde",
+    "ilce": "Ulukışla",
+    "cityId": 51,
+    "townId": 1700
+  },
+  {
+    "il": "Niğde",
+    "ilce": "Altunhisar",
+    "cityId": 51,
+    "townId": 1876
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Çatalpınar",
+    "cityId": 52,
+    "townId": 1897
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Çaybaşı",
+    "cityId": 52,
+    "townId": 1900
+  },
+  {
+    "il": "Ordu",
+    "ilce": "İkizce",
+    "cityId": 52,
+    "townId": 1947
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Kabadüz",
+    "cityId": 52,
+    "townId": 1950
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Kabataş",
+    "cityId": 52,
+    "townId": 1951
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Altınordu",
+    "cityId": 52,
+    "townId": 2103
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Akkuş",
+    "cityId": 52,
+    "townId": 1119
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Aybastı",
+    "cityId": 52,
+    "townId": 1158
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Fatsa",
+    "cityId": 52,
+    "townId": 1328
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Gölköy",
+    "cityId": 52,
+    "townId": 1358
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Korgan",
+    "cityId": 52,
+    "townId": 1482
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Kumru",
+    "cityId": 52,
+    "townId": 1493
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Merkez",
+    "cityId": 52,
+    "townId": 1516
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Mesudiye",
+    "cityId": 52,
+    "townId": 1525
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Perşembe",
+    "cityId": 52,
+    "townId": 1573
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Ulubey",
+    "cityId": 52,
+    "townId": 1696
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Ünye",
+    "cityId": 52,
+    "townId": 1706
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Gülyalı",
+    "cityId": 52,
+    "townId": 1795
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Gürgentepe",
+    "cityId": 52,
+    "townId": 1797
+  },
+  {
+    "il": "Ordu",
+    "ilce": "Çamaş",
+    "cityId": 52,
+    "townId": 1891
+  },
+  {
+    "il": "Osmaniye",
+    "ilce": "Bahçe",
+    "cityId": 80,
+    "townId": 1165
+  },
+  {
+    "il": "Osmaniye",
+    "ilce": "Kadirli",
+    "cityId": 80,
+    "townId": 1423
+  },
+  {
+    "il": "Osmaniye",
+    "ilce": "Merkez",
+    "cityId": 80,
+    "townId": 1560
+  },
+  {
+    "il": "Osmaniye",
+    "ilce": "Düziçi",
+    "cityId": 80,
+    "townId": 1743
+  },
+  {
+    "il": "Osmaniye",
+    "ilce": "Hasanbeyli",
+    "cityId": 80,
+    "townId": 2027
+  },
+  {
+    "il": "Osmaniye",
+    "ilce": "Sumbas",
+    "cityId": 80,
+    "townId": 2028
+  },
+  {
+    "il": "Osmaniye",
+    "ilce": "Toprakkale",
+    "cityId": 80,
+    "townId": 2029
+  },
+  {
+    "il": "Rize",
+    "ilce": "Derepazarı",
+    "cityId": 53,
+    "townId": 1908
+  },
+  {
+    "il": "Rize",
+    "ilce": "Hemşin",
+    "cityId": 53,
+    "townId": 1943
+  },
+  {
+    "il": "Rize",
+    "ilce": "İyidere",
+    "cityId": 53,
+    "townId": 1949
+  },
+  {
+    "il": "Rize",
+    "ilce": "Ardeşen",
+    "cityId": 53,
+    "townId": 1146
+  },
+  {
+    "il": "Rize",
+    "ilce": "Çamlıhemşin",
+    "cityId": 53,
+    "townId": 1228
+  },
+  {
+    "il": "Rize",
+    "ilce": "Çayeli",
+    "cityId": 53,
+    "townId": 1241
+  },
+  {
+    "il": "Rize",
+    "ilce": "Fındıklı",
+    "cityId": 53,
+    "townId": 1332
+  },
+  {
+    "il": "Rize",
+    "ilce": "İkizdere",
+    "cityId": 53,
+    "townId": 1405
+  },
+  {
+    "il": "Rize",
+    "ilce": "Kalkandere",
+    "cityId": 53,
+    "townId": 1428
+  },
+  {
+    "il": "Rize",
+    "ilce": "Pazar",
+    "cityId": 53,
+    "townId": 1569
+  },
+  {
+    "il": "Rize",
+    "ilce": "Merkez",
+    "cityId": 53,
+    "townId": 1586
+  },
+  {
+    "il": "Rize",
+    "ilce": "Güneysu",
+    "cityId": 53,
+    "townId": 1796
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Akyazı",
+    "cityId": 54,
+    "townId": 1123
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Geyve",
+    "cityId": 54,
+    "townId": 1351
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Hendek",
+    "cityId": 54,
+    "townId": 1391
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Karasu",
+    "cityId": 54,
+    "townId": 1442
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Kaynarca",
+    "cityId": 54,
+    "townId": 1453
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Sapanca",
+    "cityId": 54,
+    "townId": 1595
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Kocaali",
+    "cityId": 54,
+    "townId": 1818
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Pamukova",
+    "cityId": 54,
+    "townId": 1833
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Taraklı",
+    "cityId": 54,
+    "townId": 1847
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Ferizli",
+    "cityId": 54,
+    "townId": 1925
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Karapürçek",
+    "cityId": 54,
+    "townId": 1955
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Söğütlü",
+    "cityId": 54,
+    "townId": 1986
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Adapazarı",
+    "cityId": 54,
+    "townId": 2068
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Arifiye",
+    "cityId": 54,
+    "townId": 2069
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Erenler",
+    "cityId": 54,
+    "townId": 2070
+  },
+  {
+    "il": "Sakarya",
+    "ilce": "Serdivan",
+    "cityId": 54,
+    "townId": 2071
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Alaçam",
+    "cityId": 55,
+    "townId": 1125
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Bafra",
+    "cityId": 55,
+    "townId": 1164
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Çarşamba",
+    "cityId": 55,
+    "townId": 1234
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Havza",
+    "cityId": 55,
+    "townId": 1386
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Kavak",
+    "cityId": 55,
+    "townId": 1452
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Ladik",
+    "cityId": 55,
+    "townId": 1501
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Terme",
+    "cityId": 55,
+    "townId": 1676
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Vezirköprü",
+    "cityId": 55,
+    "townId": 1712
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Asarcık",
+    "cityId": 55,
+    "townId": 1763
+  },
+  {
+    "il": "Samsun",
+    "ilce": "19.may",
+    "cityId": 55,
+    "townId": 1830
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Salıpazarı",
+    "cityId": 55,
+    "townId": 1838
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Tekkeköy",
+    "cityId": 55,
+    "townId": 1849
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Ayvacık",
+    "cityId": 55,
+    "townId": 1879
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Yakakent",
+    "cityId": 55,
+    "townId": 1993
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Atakum",
+    "cityId": 55,
+    "townId": 2072
+  },
+  {
+    "il": "Samsun",
+    "ilce": "Canik",
+    "cityId": 55,
+    "townId": 2073
+  },
+  {
+    "il": "Samsun",
+    "ilce": "İlkadım",
+    "cityId": 55,
+    "townId": 2074
+  },
+  {
+    "il": "Siirt",
+    "ilce": "Baykan",
+    "cityId": 56,
+    "townId": 1179
+  },
+  {
+    "il": "Siirt",
+    "ilce": "Eruh",
+    "cityId": 56,
+    "townId": 1317
+  },
+  {
+    "il": "Siirt",
+    "ilce": "Kurtalan",
+    "cityId": 56,
+    "townId": 1495
+  },
+  {
+    "il": "Siirt",
+    "ilce": "Pervari",
+    "cityId": 56,
+    "townId": 1575
+  },
+  {
+    "il": "Siirt",
+    "ilce": "Merkez",
+    "cityId": 56,
+    "townId": 1620
+  },
+  {
+    "il": "Siirt",
+    "ilce": "Şirvan",
+    "cityId": 56,
+    "townId": 1662
+  },
+  {
+    "il": "Siirt",
+    "ilce": "Tillo",
+    "cityId": 56,
+    "townId": 1878
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Ayancık",
+    "cityId": 57,
+    "townId": 1156
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Boyabat",
+    "cityId": 57,
+    "townId": 1204
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Durağan",
+    "cityId": 57,
+    "townId": 1290
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Erfelek",
+    "cityId": 57,
+    "townId": 1314
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Gerze",
+    "cityId": 57,
+    "townId": 1349
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Merkez",
+    "cityId": 57,
+    "townId": 1627
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Türkeli",
+    "cityId": 57,
+    "townId": 1693
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Dikmen",
+    "cityId": 57,
+    "townId": 1910
+  },
+  {
+    "il": "Sinop",
+    "ilce": "Saraydüzü",
+    "cityId": 57,
+    "townId": 1981
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Şarkışla",
+    "cityId": 58,
+    "townId": 1650
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Yıldızeli",
+    "cityId": 58,
+    "townId": 1731
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Zara",
+    "cityId": 58,
+    "townId": 1738
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Ulaş",
+    "cityId": 58,
+    "townId": 1991
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Divriği",
+    "cityId": 58,
+    "townId": 1282
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Gemerek",
+    "cityId": 58,
+    "townId": 1342
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Gürün",
+    "cityId": 58,
+    "townId": 1373
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Hafik",
+    "cityId": 58,
+    "townId": 1376
+  },
+  {
+    "il": "Sivas",
+    "ilce": "İmranlı",
+    "cityId": 58,
+    "townId": 1407
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Kangal",
+    "cityId": 58,
+    "townId": 1431
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Akıncılar",
+    "cityId": 58,
+    "townId": 1870
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Altınyayla",
+    "cityId": 58,
+    "townId": 1875
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Doğanşar",
+    "cityId": 58,
+    "townId": 1913
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Gölova",
+    "cityId": 58,
+    "townId": 1927
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Koyulhisar",
+    "cityId": 58,
+    "townId": 1484
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Merkez",
+    "cityId": 58,
+    "townId": 1628
+  },
+  {
+    "il": "Sivas",
+    "ilce": "Suşehri",
+    "cityId": 58,
+    "townId": 1646
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Halfeti",
+    "cityId": 63,
+    "townId": 1378
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Hilvan",
+    "cityId": 63,
+    "townId": 1393
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Siverek",
+    "cityId": 63,
+    "townId": 1630
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Suruç",
+    "cityId": 63,
+    "townId": 1643
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Merkez",
+    "cityId": 63,
+    "townId": 1702
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Viranşehir",
+    "cityId": 63,
+    "townId": 1713
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Harran",
+    "cityId": 63,
+    "townId": 1800
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Eyyübiye",
+    "cityId": 63,
+    "townId": 2091
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Haliliye",
+    "cityId": 63,
+    "townId": 2092
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Karaköprü",
+    "cityId": 63,
+    "townId": 2093
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Akçakale",
+    "cityId": 63,
+    "townId": 1115
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Birecik",
+    "cityId": 63,
+    "townId": 1194
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Bozova",
+    "cityId": 63,
+    "townId": 1209
+  },
+  {
+    "il": "Şanlıurfa",
+    "ilce": "Ceylanpınar",
+    "cityId": 63,
+    "townId": 1220
+  },
+  {
+    "il": "Şırnak",
+    "ilce": "Beytüşşebap",
+    "cityId": 73,
+    "townId": 1189
+  },
+  {
+    "il": "Şırnak",
+    "ilce": "Cizre",
+    "cityId": 73,
+    "townId": 1223
+  },
+  {
+    "il": "Şırnak",
+    "ilce": "İdil",
+    "cityId": 73,
+    "townId": 1403
+  },
+  {
+    "il": "Şırnak",
+    "ilce": "Silopi",
+    "cityId": 73,
+    "townId": 1623
+  },
+  {
+    "il": "Şırnak",
+    "ilce": "Merkez",
+    "cityId": 73,
+    "townId": 1661
+  },
+  {
+    "il": "Şırnak",
+    "ilce": "Uludere",
+    "cityId": 73,
+    "townId": 1698
+  },
+  {
+    "il": "Şırnak",
+    "ilce": "Güçlükonak",
+    "cityId": 73,
+    "townId": 1931
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Şarköy",
+    "cityId": 59,
+    "townId": 1652
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Merkez",
+    "cityId": 59,
+    "townId": 1673
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Marmaraereğlisi",
+    "cityId": 59,
+    "townId": 1825
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Ergene",
+    "cityId": 59,
+    "townId": 2094
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Kapaklı",
+    "cityId": 59,
+    "townId": 2095
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Süleymanpaşa",
+    "cityId": 59,
+    "townId": 2096
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Çerkezköy",
+    "cityId": 59,
+    "townId": 1250
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Çorlu",
+    "cityId": 59,
+    "townId": 1258
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Hayrabolu",
+    "cityId": 59,
+    "townId": 1388
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Malkara",
+    "cityId": 59,
+    "townId": 1511
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Muratlı",
+    "cityId": 59,
+    "townId": 1538
+  },
+  {
+    "il": "Tekirdağ",
+    "ilce": "Saray",
+    "cityId": 59,
+    "townId": 1596
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Merkez",
+    "cityId": 60,
+    "townId": 1679
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Turhal",
+    "cityId": 60,
+    "townId": 1690
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Zile",
+    "cityId": 60,
+    "townId": 1740
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Pazar",
+    "cityId": 60,
+    "townId": 1834
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Yeşilyurt",
+    "cityId": 60,
+    "townId": 1858
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Başçiftlik",
+    "cityId": 60,
+    "townId": 1883
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Sulusaray",
+    "cityId": 60,
+    "townId": 1987
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Almus",
+    "cityId": 60,
+    "townId": 1129
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Artova",
+    "cityId": 60,
+    "townId": 1151
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Erbaa",
+    "cityId": 60,
+    "townId": 1308
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Niksar",
+    "cityId": 60,
+    "townId": 1545
+  },
+  {
+    "il": "Tokat",
+    "ilce": "Reşadiye",
+    "cityId": 60,
+    "townId": 1584
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Tonya",
+    "cityId": 61,
+    "townId": 1681
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Merkez",
+    "cityId": 61,
+    "townId": 1686
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Vakfıkebir",
+    "cityId": 61,
+    "townId": 1709
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Yomra",
+    "cityId": 61,
+    "townId": 1732
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Beşikdüzü",
+    "cityId": 61,
+    "townId": 1775
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Şalpazarı",
+    "cityId": 61,
+    "townId": 1842
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Çarşıbaşı",
+    "cityId": 61,
+    "townId": 1896
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Dernekpazarı",
+    "cityId": 61,
+    "townId": 1909
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Düzköy",
+    "cityId": 61,
+    "townId": 1917
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Hayrat",
+    "cityId": 61,
+    "townId": 1942
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Köprübaşı",
+    "cityId": 61,
+    "townId": 1966
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Ortahisar",
+    "cityId": 61,
+    "townId": 2097
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Akçaabat",
+    "cityId": 61,
+    "townId": 1113
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Araklı",
+    "cityId": 61,
+    "townId": 1141
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Arsin",
+    "cityId": 61,
+    "townId": 1150
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Çaykara",
+    "cityId": 61,
+    "townId": 1244
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Maçka",
+    "cityId": 61,
+    "townId": 1507
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Of",
+    "cityId": 61,
+    "townId": 1548
+  },
+  {
+    "il": "Trabzon",
+    "ilce": "Sürmene",
+    "cityId": 61,
+    "townId": 1647
+  },
+  {
+    "il": "Tunceli",
+    "ilce": "Merkez",
+    "cityId": 62,
+    "townId": 1688
+  },
+  {
+    "il": "Tunceli",
+    "ilce": "Çemişgezek",
+    "cityId": 62,
+    "townId": 1247
+  },
+  {
+    "il": "Tunceli",
+    "ilce": "Hozat",
+    "cityId": 62,
+    "townId": 1397
+  },
+  {
+    "il": "Tunceli",
+    "ilce": "Mazgirt",
+    "cityId": 62,
+    "townId": 1518
+  },
+  {
+    "il": "Tunceli",
+    "ilce": "Nazımiye",
+    "cityId": 62,
+    "townId": 1541
+  },
+  {
+    "il": "Tunceli",
+    "ilce": "Ovacık",
+    "cityId": 62,
+    "townId": 1562
+  },
+  {
+    "il": "Tunceli",
+    "ilce": "Pertek",
+    "cityId": 62,
+    "townId": 1574
+  },
+  {
+    "il": "Tunceli",
+    "ilce": "Pülümür",
+    "cityId": 62,
+    "townId": 1581
+  },
+  {
+    "il": "Uşak",
+    "ilce": "Banaz",
+    "cityId": 64,
+    "townId": 1170
+  },
+  {
+    "il": "Uşak",
+    "ilce": "Eşme",
+    "cityId": 64,
+    "townId": 1323
+  },
+  {
+    "il": "Uşak",
+    "ilce": "Karahallı",
+    "cityId": 64,
+    "townId": 1436
+  },
+  {
+    "il": "Uşak",
+    "ilce": "Sivaslı",
+    "cityId": 64,
+    "townId": 1629
+  },
+  {
+    "il": "Uşak",
+    "ilce": "Ulubey",
+    "cityId": 64,
+    "townId": 1697
+  },
+  {
+    "il": "Uşak",
+    "ilce": "Merkez",
+    "cityId": 64,
+    "townId": 1704
+  },
+  {
+    "il": "Van",
+    "ilce": "Başkale",
+    "cityId": 65,
+    "townId": 1175
+  },
+  {
+    "il": "Van",
+    "ilce": "Çatak",
+    "cityId": 65,
+    "townId": 1236
+  },
+  {
+    "il": "Van",
+    "ilce": "Erciş",
+    "cityId": 65,
+    "townId": 1309
+  },
+  {
+    "il": "Van",
+    "ilce": "Gevaş",
+    "cityId": 65,
+    "townId": 1350
+  },
+  {
+    "il": "Van",
+    "ilce": "Gürpınar",
+    "cityId": 65,
+    "townId": 1372
+  },
+  {
+    "il": "Van",
+    "ilce": "Muradiye",
+    "cityId": 65,
+    "townId": 1533
+  },
+  {
+    "il": "Van",
+    "ilce": "Özalp",
+    "cityId": 65,
+    "townId": 1565
+  },
+  {
+    "il": "Van",
+    "ilce": "Merkez",
+    "cityId": 65,
+    "townId": 1710
+  },
+  {
+    "il": "Van",
+    "ilce": "Bahçesaray",
+    "cityId": 65,
+    "townId": 1770
+  },
+  {
+    "il": "Van",
+    "ilce": "Çaldıran",
+    "cityId": 65,
+    "townId": 1786
+  },
+  {
+    "il": "Van",
+    "ilce": "Edremit",
+    "cityId": 65,
+    "townId": 1918
+  },
+  {
+    "il": "Van",
+    "ilce": "Saray",
+    "cityId": 65,
+    "townId": 1980
+  },
+  {
+    "il": "Van",
+    "ilce": "İpekyolu",
+    "cityId": 65,
+    "townId": 2098
+  },
+  {
+    "il": "Van",
+    "ilce": "Tuşba",
+    "cityId": 65,
+    "townId": 2099
+  },
+  {
+    "il": "Yalova",
+    "ilce": "Merkez",
+    "cityId": 77,
+    "townId": 1716
+  },
+  {
+    "il": "Yalova",
+    "ilce": "Altınova",
+    "cityId": 77,
+    "townId": 2019
+  },
+  {
+    "il": "Yalova",
+    "ilce": "Armutlu",
+    "cityId": 77,
+    "townId": 2020
+  },
+  {
+    "il": "Yalova",
+    "ilce": "Çınarcık",
+    "cityId": 77,
+    "townId": 2021
+  },
+  {
+    "il": "Yalova",
+    "ilce": "Çiftlikköy",
+    "cityId": 77,
+    "townId": 2022
+  },
+  {
+    "il": "Yalova",
+    "ilce": "Termal",
+    "cityId": 77,
+    "townId": 2026
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Akdağmadeni",
+    "cityId": 66,
+    "townId": 1117
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Boğazlıyan",
+    "cityId": 66,
+    "townId": 1198
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Çayıralan",
+    "cityId": 66,
+    "townId": 1242
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Çekerek",
+    "cityId": 66,
+    "townId": 1245
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Sarıkaya",
+    "cityId": 66,
+    "townId": 1602
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Sorgun",
+    "cityId": 66,
+    "townId": 1635
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Şefaatli",
+    "cityId": 66,
+    "townId": 1655
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Yerköy",
+    "cityId": 66,
+    "townId": 1726
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Merkez",
+    "cityId": 66,
+    "townId": 1733
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Aydıncık",
+    "cityId": 66,
+    "townId": 1877
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Çandır",
+    "cityId": 66,
+    "townId": 1895
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Kadışehri",
+    "cityId": 66,
+    "townId": 1952
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Saraykent",
+    "cityId": 66,
+    "townId": 1982
+  },
+  {
+    "il": "Yozgat",
+    "ilce": "Yenifakılı",
+    "cityId": 66,
+    "townId": 1998
+  },
+  {
+    "il": "Zonguldak",
+    "ilce": "Çaycuma",
+    "cityId": 67,
+    "townId": 1240
+  },
+  {
+    "il": "Zonguldak",
+    "ilce": "Devrek",
+    "cityId": 67,
+    "townId": 1276
+  },
+  {
+    "il": "Zonguldak",
+    "ilce": "Ereğli",
+    "cityId": 67,
+    "townId": 1313
+  },
+  {
+    "il": "Zonguldak",
+    "ilce": "Merkez",
+    "cityId": 67,
+    "townId": 1741
+  },
+  {
+    "il": "Zonguldak",
+    "ilce": "Alaplı",
+    "cityId": 67,
+    "townId": 1758
+  },
+  {
+    "il": "Zonguldak",
+    "ilce": "Gökçebey",
+    "cityId": 67,
+    "townId": 1926
+  },
+  {
+    "il": "Zonguldak",
+    "ilce": "Kilimli",
+    "cityId": 67,
+    "townId": 2100
+  },
+  {
+    "il": "Zonguldak",
+    "ilce": "Kozlu",
+    "cityId": 67,
+    "townId": 2101
+  }
+]

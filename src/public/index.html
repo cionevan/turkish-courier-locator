@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="tr" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Kargo Radar — Türkiye Kargo Şube Bulucu & İlçe Sorgulama</title>
+    <meta name="title" content="Kargo Radar — Türkiye Kargo Şube Bulucu & İlçe Sorgulama">
+    <meta name="description" content="İlçenizde hangi kargo firmalarının fiziksel şubesi var? Aras, PTT, Yurtiçi, MNG ve Sürat Kargo şube varlık durumunu anında ve ücretsiz sorgulayın.">
+    <meta name="keywords" content="kargo şube bulucu, hangi kargo var, aras kargo şubeleri, ptt kargo ilçe şubeleri, yurtiçi kargo en yakın şube, mng kargo şube sorgulama, sürat kargo şubeleri, kargo radar">
+    <meta name="author" content="Kargo Radar">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{DOMAIN_URL}}/">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{DOMAIN_URL}}/">
+    <meta property="og:title" content="Kargo Radar — Türkiye Kargo Şube Bulucu & İlçe Sorgulama">
+    <meta property="og:description" content="İlçenizde hangi kargonun fiziksel şubesi var? 5 büyük kargo ağını (Aras, PTT, Yurtiçi, MNG, Sürat) tek tıkla sorgulayın.">
+    <meta property="og:image" content="{{DOMAIN_URL}}/assets/dashboard_bolvadin.png">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="Kargo Radar">
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{DOMAIN_URL}}/">
+    <meta property="twitter:title" content="Kargo Radar — Türkiye Kargo Şube Bulucu">
+    <meta property="twitter:description" content="İlçenizde hangi kargo firmalarının şubesi olduğunu anında öğrenin. Ücretsiz ve reklamsız kargo radar motoru.">
+    <meta property="twitter:image" content="{{DOMAIN_URL}}/assets/dashboard_bolvadin.png">
+
+    <!-- Structured Data (Schema.org JSON-LD for Google Rich Snippets) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Kargo Radar",
+      "url": "{{DOMAIN_URL}}/",
+      "description": "Türkiye genelinde 5 büyük kargo firmasının (Aras, PTT, Yurtiçi, MNG, Sürat) ilçe bazında fiziksel şube varlığını sorgulayan lojistik takip aracı.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "All",
+      "inLanguage": "tr",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TRY"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "İlçemde hangi kargoların şubesi olduğunu nasıl öğrenirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kargo Radar arama çubuğuna il ve ilçe adınızı yazarak Aras, PTT, Yurtiçi, MNG ve Sürat Kargo firmalarının fiziksel şubesi olup olmadığını anında öğrenebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kırsal ilçelerde hangi kargo firmaları hizmet verir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Türkiye'nin dağlık ve kırsal ilçelerinin neredeyse tamamında PTT Kargo fiziksel acente ve şubelere sahiptir. Özel kargo firmaları ise belirli günlerde mobil araçlarla dağıtım yapabilir."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Production Compiled Tailwind CSS (No CDN warning) -->
+    <link rel="stylesheet" href="/app.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            letter-spacing: -0.018em;
+            transition: background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* LIGHT THEME (Apple Off-White) */
+        html.light body {
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        html.light .apple-nav {
+            background-color: rgba(255, 255, 255, 0.82);
+            backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        }
+        html.light .apple-main-card {
+            background-color: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+        }
+        html.light .apple-text-field {
+            background-color: #f5f5f7;
+            border: 1px solid transparent;
+            color: #1d1d1f;
+        }
+        html.light .apple-text-field:focus {
+            background-color: #ffffff;
+            border-color: #0071e3;
+            box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.15);
+        }
+        html.light .apple-pill {
+            background-color: #f5f5f7;
+            color: #515154;
+        }
+        html.light .apple-pill:hover {
+            background-color: #e8e8ed;
+            color: #1d1d1f;
+        }
+        html.light .apple-summary-box {
+            background-color: #f5f5f7;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+        }
+        html.light .apple-carrier-card {
+            background-color: #fbfbfd;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+        }
+        html.light .apple-carrier-card:hover {
+            background-color: #ffffff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+        }
+        html.light .apple-footer {
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
+            color: #86868b;
+        }
+
+        /* DARK THEME (Apple Space Gray & Pure Dark) */
+        html.dark body {
+            background-color: #000000;
+            color: #f5f5f7;
+        }
+        html.dark .apple-nav {
+            background-color: rgba(22, 22, 23, 0.8);
+            backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        html.dark .apple-main-card {
+            background-color: #161617;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+        html.dark .apple-text-field {
+            background-color: #1d1d1f;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #f5f5f7;
+        }
+        html.dark .apple-text-field:focus {
+            background-color: #242426;
+            border-color: #2997ff;
+            box-shadow: 0 0 0 4px rgba(41, 151, 255, 0.25);
+        }
+        html.dark .apple-pill {
+            background-color: #1d1d1f;
+            color: #a1a1a6;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        html.dark .apple-pill:hover {
+            background-color: #28282b;
+            color: #f5f5f7;
+        }
+        html.dark .apple-summary-box {
+            background-color: #1d1d1f;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        html.dark .apple-carrier-card {
+            background-color: #1c1c1e;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        html.dark .apple-carrier-card:hover {
+            background-color: #242426;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+        }
+        html.dark .apple-footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            color: #86868b;
+        }
+
+        /* Universal Apple Components */
+        .apple-action-btn {
+            background-color: #0071e3;
+            color: #ffffff;
+            border-radius: 980px;
+            font-weight: 500;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .apple-action-btn:hover {
+            background-color: #0077ed;
+            box-shadow: 0 4px 14px rgba(0, 113, 227, 0.3);
+        }
+        .apple-action-btn:active {
+            transform: scale(0.97);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-[#0071e3] selection:text-white">
+
+    <!-- Apple Navigation Bar -->
+    <header class="apple-nav sticky top-0 z-50 transition-colors">
+        <div class="max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
+            <a href="/" class="flex items-center gap-2 group tracking-tight">
+                <span class="text-base tracking-tight select-none">
+                    <span class="font-extrabold text-[#1d1d1f] dark:text-white">kargo</span><span class="font-light text-[#0071e3] dark:text-[#2997ff]">radar</span>
+                </span>
+                <span class="text-[10px] font-medium tracking-normal px-1.5 py-0.5 rounded-full bg-black/[0.04] dark:bg-white/[0.08] text-[#86868b] dark:text-[#a1a1a6]">2.3</span>
+            </a>
+
+            <!-- Right Controls: Theme Toggle & GitHub -->
+            <div class="flex items-center gap-3">
+                
+                <!-- Apple Theme Switcher (Sun/Moon Toggle) -->
+                <button type="button" onclick="toggleTheme()" id="themeBtn" aria-label="Tema Değiştir"
+                        class="p-2 rounded-full bg-black/[0.04] dark:bg-white/[0.08] hover:bg-black/[0.08] dark:hover:bg-white/[0.15] text-[#1d1d1f] dark:text-white transition">
+                    <i data-lucide="moon" id="themeIcon" class="w-4 h-4"></i>
+                </button>
+
+                <a href="https://github.com/cionevan/turkish-courier-locator" target="_blank" 
+                   class="inline-flex items-center gap-1.5 text-xs font-medium text-[#1d1d1f] dark:text-white hover:text-[#0071e3] transition px-3 py-1.5 rounded-full bg-black/[0.04] dark:bg-white/[0.08] hover:bg-black/[0.08] dark:hover:bg-white/[0.15]">
+                    <i data-lucide="star" class="w-3.5 h-3.5 text-amber-500 fill-amber-500"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 max-w-3xl w-full mx-auto px-5 py-12 sm:py-16 flex flex-col items-center">
+        
+        <!-- Apple Hero Header -->
+        <div class="text-center space-y-2 mb-10 max-w-xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight text-[#1d1d1f] dark:text-white">
+                Kargo Şube Radarı.
+            </h1>
+            <p class="text-base sm:text-lg text-[#86868b] dark:text-[#a1a1a6] font-normal leading-relaxed">
+                İlçenizi yazın. Hangi kargo firmalarının fiziksel şubesi olduğunu anında öğrenin.
+            </p>
+        </div>
+
+        <!-- Surface Card -->
+        <div class="w-full apple-main-card p-6 sm:p-8 space-y-6 rounded-[24px]">
+            
+            <form onsubmit="event.preventDefault(); doSearch();" class="grid grid-cols-1 sm:grid-cols-12 gap-3.5">
+                <div class="sm:col-span-4">
+                    <label for="ilInput" class="text-xs font-medium text-[#86868b] dark:text-[#a1a1a6] block mb-1.5">İl (Opsiyonel)</label>
+                    <div class="relative">
+                        <input type="text" id="ilInput" placeholder="Örn: İstanbul" autocomplete="off"
+                               class="apple-text-field w-full h-12 px-4 rounded-[14px] text-sm placeholder:text-[#aeaeb2] dark:placeholder:text-[#6e6e73]">
+                        <button type="button" onclick="clearIlInput()" id="clearIlBtn" aria-label="İli Temizle" class="absolute right-3.5 top-3.5 text-[#aeaeb2] hover:text-[#1d1d1f] dark:hover:text-white hidden">
+                            <i data-lucide="x" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="sm:col-span-5">
+                    <label for="ilceInput" class="text-xs font-medium text-[#86868b] dark:text-[#a1a1a6] block mb-1.5">İlçe Adı *</label>
+                    <div class="relative">
+                        <input type="text" id="ilceInput" placeholder="Örn: Kadıköy, Bolvadin" autocomplete="off" required
+                               class="apple-text-field w-full h-12 px-4 rounded-[14px] text-sm placeholder:text-[#aeaeb2] dark:placeholder:text-[#6e6e73]">
+                        <button type="button" onclick="clearIlceInput()" id="clearIlceBtn" aria-label="İlçeyi Temizle" class="absolute right-3.5 top-3.5 text-[#aeaeb2] hover:text-[#1d1d1f] dark:hover:text-white hidden">
+                            <i data-lucide="x" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="sm:col-span-3 flex items-end">
+                    <button type="submit" id="searchBtn"
+                            class="apple-action-btn w-full h-12 text-sm flex items-center justify-center gap-2 shadow-sm">
+                        <i data-lucide="search" class="w-4 h-4"></i>
+                        <span id="btnText">Sorgula</span>
+                    </button>
+                </div>
+            </form>
+
+            <!-- Pill Suggestions -->
+            <div class="flex flex-wrap items-center gap-2 pt-2 border-t border-black/[0.05] dark:border-white/[0.06]">
+                <span class="text-xs text-[#86868b] dark:text-[#a1a1a6] font-medium mr-1">Örnek:</span>
+                <button type="button" onclick="quickSearch('İstanbul', 'Kadıköy')" class="apple-pill px-3.5 py-1.5 rounded-full text-xs transition">İstanbul / Kadıköy</button>
+                <button type="button" onclick="quickSearch('Afyonkarahisar', 'Bolvadin')" class="apple-pill px-3.5 py-1.5 rounded-full text-xs transition">Afyon / Bolvadin</button>
+                <button type="button" onclick="quickSearch('Rize', 'Çamlıhemşin')" class="apple-pill px-3.5 py-1.5 rounded-full text-xs transition">Rize / Çamlıhemşin</button>
+                <button type="button" onclick="quickSearch('Aydın', 'Bozdoğan')" class="apple-pill px-3.5 py-1.5 rounded-full text-xs transition">Aydın / Bozdoğan</button>
+            </div>
+
+            <!-- Results Stage -->
+            <div id="resultBox" class="hidden space-y-5 pt-4 border-t border-black/[0.05] dark:border-white/[0.06]">
+                
+                <!-- Result Summary Box -->
+                <div class="apple-summary-box p-4 rounded-2xl space-y-1">
+                    <div class="flex items-center justify-between">
+                        <h3 id="alertTitle" class="text-sm font-semibold text-[#1d1d1f] dark:text-white tracking-tight">Şube Durumu</h3>
+                        <span id="matchStats" class="text-xs font-medium px-2.5 py-0.5 rounded-full bg-white dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-white shadow-xs"></span>
+                    </div>
+                    <p id="summaryText" class="text-xs sm:text-sm text-[#515154] dark:text-[#a1a1a6] leading-relaxed"></p>
+                </div>
+
+                <!-- Multiple Provinces Notice & Switcher -->
+                <div id="alternativesBox" class="hidden apple-summary-box p-3.5 rounded-2xl flex flex-wrap items-center gap-2 text-xs">
+                    <span class="text-[#86868b] dark:text-[#a1a1a6] font-medium">Bu ilçe başka illerde de var:</span>
+                    <div id="alternativesList" class="flex flex-wrap items-center gap-1.5"></div>
+                </div>
+
+                <!-- 5 Carrier Cards Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5" id="badgeGrid"></div>
+
+                <!-- Subtle GitHub hint -->
+                <div class="flex flex-col sm:flex-row items-center justify-between gap-2 p-3.5 rounded-2xl apple-summary-box text-xs text-[#86868b] dark:text-[#a1a1a6]">
+                    <span>Bu açık kaynaklı proje işinize yaradı mı?</span>
+                    <a href="https://github.com/cionevan/turkish-courier-locator" target="_blank" 
+                       class="font-medium text-[#0071e3] dark:text-[#2997ff] hover:underline inline-flex items-center gap-1">
+                        <span>GitHub'da bir yıldız bırakın</span>
+                        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEO Semantic Content & FAQ Section -->
+        <div class="w-full mt-10 space-y-6">
+            
+            <!-- SEO Highlights Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
+                <div class="apple-main-card p-5 rounded-[20px] space-y-2">
+                    <div class="flex items-center gap-2 text-[#0071e3] dark:text-[#2997ff]">
+                        <i data-lucide="map-pin" class="w-4 h-4"></i>
+                        <span class="text-xs font-semibold uppercase tracking-wider">984 İlçe Taraması</span>
+                    </div>
+                    <p class="text-xs text-[#86868b] dark:text-[#a1a1a6] leading-relaxed">
+                        Türkiye'nin 81 ilindeki tüm merkez ve taşra ilçeleri tek bir lojistik haritasında birleştirildi.
+                    </p>
+                </div>
+                <div class="apple-main-card p-5 rounded-[20px] space-y-2">
+                    <div class="flex items-center gap-2 text-[#0071e3] dark:text-[#2997ff]">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i>
+                        <span class="text-xs font-semibold uppercase tracking-wider">5 Büyük Kargo Ağı</span>
+                    </div>
+                    <p class="text-xs text-[#86868b] dark:text-[#a1a1a6] leading-relaxed">
+                        Aras, PTT, Yurtiçi, MNG (DHL) ve Sürat Kargo şubeleri resmi veri kaynaklarından doğrulanır.
+                    </p>
+                </div>
+                <div class="apple-main-card p-5 rounded-[20px] space-y-2">
+                    <div class="flex items-center gap-2 text-[#0071e3] dark:text-[#2997ff]">
+                        <i data-lucide="zap" class="w-4 h-4"></i>
+                        <span class="text-xs font-semibold uppercase tracking-wider">Anında & Ücretsiz</span>
+                    </div>
+                    <p class="text-xs text-[#86868b] dark:text-[#a1a1a6] leading-relaxed">
+                        Önbellek mimarisi sayesinde bekleme süresi olmadan 15 milisaniyede sorgu sonucu döner.
+                    </p>
+                </div>
+            </div>
+
+            <!-- SEO FAQ Accordion -->
+            <div class="apple-main-card p-6 rounded-[24px] space-y-4">
+                <h2 class="text-base font-semibold tracking-tight text-[#1d1d1f] dark:text-white">
+                    Sıkça Sorulan Sorular (SSS)
+                </h2>
+                <div class="space-y-3 text-xs">
+                    <div class="apple-summary-box p-4 rounded-xl space-y-1.5">
+                        <h3 class="font-semibold text-[#1d1d1f] dark:text-white">İlçemde kargo şubesi olup olmadığını nasıl anlarım?</h3>
+                        <p class="text-[#515154] dark:text-[#a1a1a6] leading-relaxed">
+                            Yukarıdaki arama çubuğuna il ve ilçe adınızı girip "Sorgula" butonuna bastığınızda, 5 büyük firmanın fiziki şube durumu anında yeşil veya kırmızı olarak listelenir.
+                        </p>
+                    </div>
+                    <div class="apple-summary-box p-4 rounded-xl space-y-1.5">
+                        <h3 class="font-semibold text-[#1d1d1f] dark:text-white">Şubesi olmayan ilçelere kargo teslimatı yapılır mı?</h3>
+                        <p class="text-[#515154] dark:text-[#a1a1a6] leading-relaxed">
+                            Fiziksel şubesi olmayan dağ ve kırsal ilçelerde özel kargo firmaları haftanın belirli günleri çevre il/ilçe merkezlerinden mobil dağıtım araçları yönlendirir. PTT Kargo ise kamu hizmeti gereği neredeyse her ilçede yerleşik acente ve şubeye sahiptir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Developer REST API Box -->
+        <div class="w-full mt-6 apple-main-card p-6 space-y-3 rounded-[24px]">
+            <div class="flex items-center justify-between">
+                <span class="text-xs font-semibold text-[#86868b] dark:text-[#a1a1a6] uppercase tracking-wider">REST API Geliştirici Erişimi</span>
+                <span class="text-[11px] text-[#86868b] dark:text-[#a1a1a6] font-mono">GET JSON</span>
+            </div>
+            <div class="apple-summary-box rounded-xl p-3.5 text-xs font-mono text-[#515154] dark:text-[#a1a1a6] space-y-2">
+                <div class="flex items-center justify-between">
+                    <span class="text-[#0071e3] dark:text-[#2997ff] font-medium">GET /api/check?ilce=Kadikoy</span>
+                    <span class="text-[#86868b] dark:text-[#6e6e73] text-[11px]">Hızlı sorgu</span>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-[#0071e3] dark:text-[#2997ff] font-medium">GET /api/check?il=Istanbul&ilce=Besiktas</span>
+                    <span class="text-[#86868b] dark:text-[#6e6e73] text-[11px]">Kesin eşleşme</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Apple Clean Footer -->
+    <footer class="apple-footer py-8 text-center text-xs">
+        <div class="max-w-3xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <span>Türkiye Kargo Şube Analiz & Takip Motoru</span>
+            <div class="flex items-center gap-5">
+                <a href="https://github.com/cionevan/turkish-courier-locator" class="hover:text-[#1d1d1f] dark:hover:text-white transition">GitHub</a>
+                <a href="https://github.com/cionevan/turkish-courier-locator/blob/main/CONTRIBUTING.md" class="hover:text-[#1d1d1f] dark:hover:text-white transition">Katkıda Bulun</a>
+                <a href="https://github.com/cionevan/turkish-courier-locator/issues" class="hover:text-[#1d1d1f] dark:hover:text-white transition">Hata Bildir</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Apple Theme Switcher Logic
+        function initTheme() {
+            const saved = localStorage.getItem('apple-theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const isDark = saved === 'dark' || (!saved && prefersDark);
+            setTheme(isDark);
+        }
+
+        function setTheme(isDark) {
+            const html = document.documentElement;
+            if (isDark) {
+                html.classList.add('dark');
+                html.classList.remove('light');
+                localStorage.setItem('apple-theme', 'dark');
+            } else {
+                html.classList.remove('dark');
+                html.classList.add('light');
+                localStorage.setItem('apple-theme', 'light');
+            }
+            updateThemeIcon(isDark);
+        }
+
+        function toggleTheme() {
+            const isDark = document.documentElement.classList.contains('dark');
+            setTheme(!isDark);
+        }
+
+        function updateThemeIcon(isDark) {
+            const icon = document.getElementById('themeIcon');
+            if (icon) {
+                icon.setAttribute('data-lucide', isDark ? 'sun' : 'moon');
+                lucide.createIcons();
+            }
+        }
+
+        initTheme();
+        lucide.createIcons();
+
+        const ilInput = document.getElementById('ilInput');
+        const clearIlBtn = document.getElementById('clearIlBtn');
+        const ilceInput = document.getElementById('ilceInput');
+        const clearIlceBtn = document.getElementById('clearIlceBtn');
+
+        ilInput.addEventListener('input', () => {
+            clearIlBtn.classList.toggle('hidden', !ilInput.value);
+        });
+
+        ilceInput.addEventListener('input', () => {
+            clearIlceBtn.classList.toggle('hidden', !ilceInput.value);
+        });
+
+        // İldeki çarpıya basılırsa ilçedeki veri de temizlenir
+        function clearIlInput() {
+            ilInput.value = '';
+            clearIlBtn.classList.add('hidden');
+            ilceInput.value = '';
+            clearIlceBtn.classList.add('hidden');
+            ilInput.focus();
+        }
+
+        // İlçedeki çarpıya basılırsa yalnızca ilçe temizlenir
+        function clearIlceInput() {
+            ilceInput.value = '';
+            clearIlceBtn.classList.add('hidden');
+            ilceInput.focus();
+        }
+
+        function quickSearch(il, ilce) {
+            ilInput.value = il;
+            ilceInput.value = ilce;
+            clearIlBtn.classList.toggle('hidden', !il);
+            clearIlceBtn.classList.toggle('hidden', !ilce);
+            doSearch();
+        }
+
+        async function doSearch() {
+            const il = document.getElementById('ilInput').value.trim();
+            const ilce = document.getElementById('ilceInput').value.trim();
+            if (!ilce) return alert("Lütfen en azından bir ilçe adı yazın!");
+
+            const btn = document.getElementById('searchBtn');
+            const btnText = document.getElementById('btnText');
+            btn.disabled = true;
+            btn.classList.add('opacity-70', 'cursor-not-allowed');
+            btnText.innerText = "Sorgulanıyor...";
+
+            try {
+                const res = await fetch('/api/check?il=' + encodeURIComponent(il) + '&ilce=' + encodeURIComponent(ilce));
+                const data = await res.json();
+
+                const box = document.getElementById('resultBox');
+                box.classList.remove('hidden');
+
+                document.getElementById('summaryText').innerText = data.summary.mesaj;
+                document.getElementById('alertTitle').innerText = (data.matched.il ? data.matched.il + ' / ' : '') + data.matched.ilce;
+                document.getElementById('matchStats').innerText = `${data.summary.toplamVar}/5 Kargo Var`;
+
+                // Handle ambiguous districts (same district name across multiple provinces)
+                const altBox = document.getElementById('alternativesBox');
+                const altList = document.getElementById('alternativesList');
+                altList.innerHTML = '';
+                if (data.alternatives && data.alternatives.length > 0) {
+                    altBox.classList.remove('hidden');
+                    data.alternatives.forEach(alt => {
+                        const altBtn = document.createElement('button');
+                        altBtn.type = 'button';
+                        altBtn.className = 'apple-pill px-2.5 py-1 rounded-full text-xs transition hover:text-[#0071e3] dark:hover:text-[#2997ff] font-medium';
+                        altBtn.innerText = alt.il + ' ' + alt.ilce;
+                        altBtn.onclick = () => quickSearch(alt.il, alt.ilce);
+                        altList.appendChild(altBtn);
+                    });
+                } else {
+                    altBox.classList.add('hidden');
+                }
+
+                const grid = document.getElementById('badgeGrid');
+                grid.innerHTML = '';
+
+                for (const [id, c] of Object.entries(data.carriers)) {
+                    const card = document.createElement('div');
+                    card.className = 'apple-carrier-card p-4 rounded-[18px] flex flex-col justify-between transition-all';
+
+                    card.innerHTML = 
+                        '<div class="flex items-center justify-between mb-3">' +
+                            '<span class="text-sm font-semibold text-[#1d1d1f] dark:text-white tracking-tight">' + c.name + '</span>' +
+                            '<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium ' + 
+                                (c.hasBranch 
+                                ? 'bg-[#e3f7e9] dark:bg-[#133820] text-[#1b873f] dark:text-[#30d158]' 
+                                : 'bg-[#fdeeed] dark:bg-[#3d1417] text-[#d70015] dark:text-[#ff453a]') + '">' +
+                                (c.hasBranch 
+                                ? '<span class="w-1.5 h-1.5 rounded-full bg-[#34c759]"></span> Şube Var' 
+                                : '<span class="w-1.5 h-1.5 rounded-full bg-[#ff3b30]"></span> Şube Yok') +
+                            '</span>' +
+                        '</div>' +
+                        '<div class="flex items-center justify-between text-xs text-[#86868b] dark:text-[#a1a1a6] pt-2.5 border-t border-black/[0.04] dark:border-white/[0.05]">' +
+                            '<span class="text-[11px] font-mono">' + id + '</span>' +
+                            '<span class="text-[11px]">' + (c.source === 'live' ? 'Canlı Doğrulandı' : 'Doğrulandı') + '</span>' +
+                        '</div>';
+                    grid.appendChild(card);
+                }
+
+                if (window.innerWidth < 640) {
+                    box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            } catch (err) {
+                alert('Sorgulama sırasında bir hata oluştu.');
+            } finally {
+                btn.disabled = false;
+                btn.classList.remove('opacity-70', 'cursor-not-allowed');
+                btnText.innerText = "Sorgula";
+                lucide.createIcons();
+            }
+        }
+    </script>
+</body>
+</html>

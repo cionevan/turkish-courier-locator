@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-appleBlue: #0071e3;
+  --color-appleBlueDark: #2997ff;
+}

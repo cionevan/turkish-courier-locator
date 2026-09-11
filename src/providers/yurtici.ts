@@ -2,7 +2,6 @@ import axios, { AxiosInstance } from 'axios';
 import * as fs from 'fs';
 import * as path from 'path';
 import { CarrierProvider, DistrictMeta } from '../types';
-import { normalizeTurkish } from '../utils/normalize';
 
 export class YurticiProvider implements CarrierProvider {
     public readonly id = 'yurtici-kargo';
@@ -65,50 +64,142 @@ export class YurticiProvider implements CarrierProvider {
         return baseDistricts;
     }
 
+    private normalizeWords(text: string): string[] {
+        return (text || '')
+            .toLowerCase()
+            .replace(/İ/g, 'i')
+            .replace(/I/g, 'i')
+            .replace(/ı/g, 'i')
+            .replace(/ğ/g, 'g')
+            .replace(/Ğ/g, 'g')
+            .replace(/ü/g, 'u')
+            .replace(/Ü/g, 'u')
+            .replace(/ş/g, 's')
+            .replace(/Ş/g, 's')
+            .replace(/ö/g, 'o')
+            .replace(/Ö/g, 'o')
+            .replace(/ç/g, 'c')
+            .replace(/Ç/g, 'c')
+            .replace(/[^a-z0-9]/g, ' ')
+            .split(/\s+/)
+            .filter(Boolean);
+    }
+
+    private matchesDistrict(text: string, targetDistrict: string): boolean {
+        const normTarget = this.normalizeWords(targetDistrict).join('');
+        const textWords = this.normalizeWords(text);
+        const textCollapsed = textWords.join('');
+
+        if (normTarget.length <= 3) {
+            return textWords.includes(normTarget);
+        }
+        return textCollapsed.includes(normTarget) || textWords.includes(normTarget);
+    }
+
     public async checkBranch(district: DistrictMeta, retries = 3): Promise<boolean> {
         try {
-            const geoRes = await this.client.get('/service/geodistricts', {
-                params: {
-                    address: `${district.il} ${district.ilce}`,
-                    count: 3,
-                    excludeCyprus: true,
-                    language: 'tr'
-                }
-            });
+            const normIl = this.normalizeWords(district.il).join('');
+            const normIlce = this.normalizeWords(district.ilce).join('');
 
-            const items = geoRes.data;
-            if (!Array.isArray(items) || items.length === 0) {
+            const candidateQueries = [
+                `${district.ilce} ${district.il}`,
+                `${district.il} ${district.ilce}`,
+                district.ilce
+            ];
+
+            let matches: any[] = [];
+
+            // 1. Primary resolver: /service/getgeosearch
+            for (const q of candidateQueries) {
+                try {
+                    const geoRes = await this.client.get('/service/getgeosearch', {
+                        params: {
+                            address: q,
+                            maxResultCount: 20,
+                            language: 'tr'
+                        }
+                    });
+                    if (Array.isArray(geoRes.data) && geoRes.data.length > 0) {
+                        const found = geoRes.data.filter((it: any) => {
+                            const itCity = this.normalizeWords(it.CityName).join('');
+                            const itCounty = this.normalizeWords(it.CountyName).join('');
+                            const cityOk = itCity.includes(normIl) || normIl.includes(itCity);
+                            const countyOk = itCounty.includes(normIlce) || normIlce.includes(itCounty);
+                            return cityOk && countyOk;
+                        });
+                        if (found.length > 0) {
+                            matches = found;
+                            break;
+                        }
+                    }
+                } catch {
+                    // Try next query
+                }
+            }
+
+            // 2. Secondary fallback resolver: /service/geodistricts
+            if (matches.length === 0) {
+                for (const q of candidateQueries) {
+                    try {
+                        const geoRes = await this.client.get('/service/geodistricts', {
+                            params: {
+                                address: q,
+                                count: 50,
+                                excludeCyprus: true,
+                                language: 'tr'
+                            }
+                        });
+                        if (Array.isArray(geoRes.data) && geoRes.data.length > 0) {
+                            const found = geoRes.data.filter((it: any) => {
+                                const itCity = this.normalizeWords(it.CityName).join('');
+                                const itCounty = this.normalizeWords(it.CountyName).join('');
+                                const cityOk = itCity.includes(normIl) || normIl.includes(itCity);
+                                const countyOk = itCounty.includes(normIlce) || normIlce.includes(itCounty);
+                                return cityOk && countyOk;
+                            });
+                            if (found.length > 0) {
+                                matches = found;
+                                break;
+                            }
+                        }
+                    } catch {
+                        // Try next query
+                    }
+                }
+            }
+
+            if (matches.length === 0) {
                 return false;
             }
 
-            const targetIlceNorm = normalizeTurkish(district.ilce);
-            // Match item where CountyName matches target district
-            const match = items.find((it: any) => {
-                const countyNorm = normalizeTurkish(it.CountyName || '');
-                return countyNorm === targetIlceNorm || countyNorm.includes(targetIlceNorm) || targetIlceNorm.includes(countyNorm);
-            }) || items[0];
+            // Test up to 5 distinct DistrictIds for this county
+            const distinctDistrictIds: number[] = Array.from(new Set(matches.map((m: any) => m.DistrictId))).slice(0, 5);
 
-            if (!match || !match.CityId || !match.CountyId) {
-                return false;
-            }
+            for (const distId of distinctDistrictIds) {
+                const sample = matches.find((m: any) => m.DistrictId === distId);
+                if (!sample || !sample.CityId || !sample.CountyId) continue;
 
-            const branchRes = await this.client.get('/service/getbranchesbycitytown', {
-                params: {
-                    cityId: match.CityId,
-                    countyId: match.CountyId,
-                    districtId: match.DistrictId || '',
-                    language: 'tr'
+                try {
+                    const branchRes = await this.client.get('/service/getbranchesbycitytown', {
+                        params: {
+                            cityId: sample.CityId,
+                            countyId: sample.CountyId,
+                            districtId: distId,
+                            language: 'tr'
+                        }
+                    });
+
+                    if (Array.isArray(branchRes.data) && branchRes.data.length > 0) {
+                        const hasLocalBranch = branchRes.data.some((b: any) =>
+                            this.matchesDistrict(b.Address, district.ilce) || this.matchesDistrict(b.Name, district.ilce)
+                        );
+                        if (hasLocalBranch) {
+                            return true;
+                        }
+                    }
+                } catch {
+                    // Try next district ID
                 }
-            });
-
-            if (Array.isArray(branchRes.data) && branchRes.data.length > 0) {
-                // Ensure branch belongs to this district or city
-                const hasLocalBranch = branchRes.data.some((b: any) => {
-                    const addr = normalizeTurkish(b.Address || '');
-                    const name = normalizeTurkish(b.Name || '');
-                    return addr.includes(targetIlceNorm) || name.includes(targetIlceNorm);
-                });
-                return hasLocalBranch;
             }
 
             return false;

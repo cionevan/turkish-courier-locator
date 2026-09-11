@@ -232,7 +232,18 @@ function get(path: string, reqHeaders?: http.OutgoingHttpHeaders): Promise<{ sta
             console.log('PASS 17: UAVT target districts (Eyüpsultan, 19 Mayıs, Sultanhanı, Derecik, Batman 1174, Artvin Kemalpaşa 2105) & KKTC validated 100%');
         }
 
-        console.log(`\nAUDIT RESULT: ${17 - failures}/17 PASSED, ${failures} FAILURES`);
+        // 18. Yurtiçi Kargo branch detection audit (Mersin/Yenişehir, Bursa/Yenişehir, Fatih)
+        const r18 = await get('/api/check?il=Mersin&ilce=Yeni%C5%9Fehir');
+        const b18 = JSON.parse(r18.body);
+        const ykMersin = b18.carriers && b18.carriers['yurtici-kargo'];
+        if (!ykMersin || ykMersin.hasBranch !== true) {
+            console.error('FAIL 18: Yurtiçi Kargo branch detection failed for Mersin / Yenişehir:', ykMersin);
+            failures++;
+        } else {
+            console.log('PASS 18: Yurtiçi Kargo Mersin/Yenişehir accurately detected with hasBranch=true');
+        }
+
+        console.log(`\nAUDIT RESULT: ${18 - failures}/18 PASSED, ${failures} FAILURES`);
 
     } finally {
         await new Promise<void>((resolve) => server.close(() => resolve()));

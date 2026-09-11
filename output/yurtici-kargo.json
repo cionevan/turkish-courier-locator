@@ -402,7 +402,7 @@
   {
     "il": "Ankara",
     "ilce": "Keçiören",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "Ankara",
@@ -1142,7 +1142,7 @@
   {
     "il": "Bursa",
     "ilce": "Mustafakemalpaşa",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "Bursa",
@@ -1167,12 +1167,12 @@
   {
     "il": "Bursa",
     "ilce": "Yenişehir",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "Bursa",
     "ilce": "Yıldırım",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "Çanakkale",
@@ -1442,7 +1442,7 @@
   {
     "il": "Denizli",
     "ilce": "Merkezefendi",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "Denizli",
@@ -1547,7 +1547,7 @@
   {
     "il": "Diyarbakır",
     "ilce": "Yenişehir",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "Düzce",
@@ -2287,7 +2287,7 @@
   {
     "il": "İstanbul",
     "ilce": "Bayrampaşa",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "İstanbul",
@@ -2342,7 +2342,7 @@
   {
     "il": "İstanbul",
     "ilce": "Fatih",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "İstanbul",
@@ -2522,7 +2522,7 @@
   {
     "il": "İzmir",
     "ilce": "Karşıyaka",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "İzmir",
@@ -3622,7 +3622,7 @@
   {
     "il": "Mersin",
     "ilce": "Yenişehir",
-    "subeVar": false
+    "subeVar": true
   },
   {
     "il": "Muğla",
